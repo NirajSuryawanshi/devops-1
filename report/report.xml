@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <report
+            id="report_session222"
+            model="hospital.history"
+            string="Hospital Report"
+            report_type="qweb-pdf"
+            name="hospital.report_session_view"
+            file="hospital.report_session_view"/>
+
+
+    <report
+            id="report_doctor"
+            model="hospital.management"
+            string="Doctor Report"
+            report_type="qweb-pdf"
+            name="hospital.report_doctor_view"
+            file="hospital.report_doctor_view"/>
+
+    <report
+            id="student_invoices"
+            model="hospital_student"
+            string="report"
+            report_type="qweb-pdf"
+            name="hospital.report_student_view"
+            file="hospital.report_student_view"/>
+
+    <report
+            id="report_session"
+            model="patients"
+            string="Patient"
+            name="hospital.patient_session_view"
+            file="hospital.patient_session_view"
+            report_type="qweb-pdf"/>
+
+    <report
+            id="report_session1"
+            model="prescription"
+            string="prescription"
+            name="hospital.patient_prescription_view"
+            file="hospital.patient_prescription_view"
+            report_type="qweb-pdf"/>
+
+</odoo>

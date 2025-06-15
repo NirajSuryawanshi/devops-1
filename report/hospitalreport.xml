@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="hospital.report_session_view">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="o">
+                    <t t-call="web.external_layout">
+                        <div class="page">
+                        <h2>Hospital Information</h2>
+                            <table class="table table-bordered" border="1" style="width:100%;">
+                                <tr>
+                                    <th align="center">Logo</th>
+                                    <td ><span t-field="o.Logo" t-options='{"widget": "image","style":"width: 100px;height: 100px"}'/></td>
+                                </tr>
+                                <tr>
+                                    <th align="center">Registration No</th>
+                                    <td ><span t-field="o.registraionNo"/></td>
+                                </tr> registrationNo
+                                <tr>
+                                    <th align="center">License Number</th>
+                                    <td ><span t-field="o.hospitalicense_Number"/></td>
+                                </tr>
+                                <tr>
+                                    <th align="center">Establish</th>
+                                    <td ><span t-field="o.Establish"/></td>
+                                </tr>
+                                <tr>
+                                    <th align="center">Name</th>
+                                    <td ><span t-field="o.hospital_name"/></td>
+                                </tr>
+                                <tr>
+                                    <th align="center">Department</th>
+                                    <td>
+                                        <t t-foreach="o.hospital_department" t-as="dep">
+                                            <span t-field="dep.dname"/><br></br>
+                                        </t>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <th align="center">Address</th>
+                                    <td ><span t-field="o.hospital_address"/></td>
+                                </tr>
+                                <tr>
+                                    <th align="center">Email</th>
+                                    <td ><span t-field="o.hospital_email"/></td>
+                                </tr>
+                                <tr>
+                                    <th align="center">Website</th>
+                                    <td ><span t-field="o.hwebsite"/></td>
+                                </tr>
+                                 <tr>
+                                    <th align="center">Country</th>
+                                    <td ><span t-field="o.hospital_country"/></td>
+                                </tr>
+                                 <tr>
+                                    <th align="center">State</th>
+                                    <td ><span t-field="o.hospital_state"/></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </t>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="l1" model="lifedisease" >
+            <field name="ldiseasename">Scleroderma</field>
+            <field name="ldescription">hardening and tightening of the skin and connective tissues</field>
+        </record>
+        <record id="l2" model="lifedisease" >
+            <field name="ldiseasename">Schizophrenia</field>
+            <field name="ldescription"> disorders that affect a person's ability to move and maintain balance and posture </field>
+          </record>
+        <record id="l3" model="lifedisease" >
+            <field name="ldiseasename">Poliomyelitis</field>
+            <field name="ldescription"> disabling and life-threatening disease caused by the poliovirus</field>
+        </record>
+        <record id="l4" model="lifedisease" >
+            <field name="ldiseasename">Cystic Fibrosis</field>
+            <field name="ldescription"> mental disorder in which people interpret reality abnormally </field>
+        </record>
+        <record id="l5" model="lifedisease" >
+            <field name="ldiseasename">Rheumatoid Arthritis </field>
+             <field name="ldescription"> an autoimmune and inflammatory disease</field>
+
+        </record>
+
+
+
+    </data>
+</odoo>

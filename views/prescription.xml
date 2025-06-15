@@ -1,0 +1,87 @@
+<!--    <record id="prescription_form_view" model="ir.ui.view">&ndash;&gt;-->
+<!--        <field name="name">Dprescription.form</field>-->
+<!--        <field name="model">prescription</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <form string="prescription Form">-->
+<!--                <sheet>-->
+<!--                    <div class="oe_title">-->
+<!--                        <h1>-->
+<!--                            <field name="prenames" readonly="1"/>-->
+
+<!--                        </h1>-->
+<!--                    </div>-->
+<!--                    <group colspan="4" col="4">-->
+<!--                        <field name="Patient_name" required="1"/>-->
+<!--                        <field name="contact"/>-->
+<!--                        <field name="emailadd"/>-->
+<!--                        <field name="patient_age"/>-->
+<!--                        <field name="patient_gender" widget="radio"/>-->
+<!--                        <field name="bydoctor"/>-->
+<!--                    </group>-->
+<!--                    <group>-->
+<!--                        <field name="medsname" widget="one2many_list"/>-->
+<!--                    </group>-->
+<!--                <button name="action_done" string="Send whatsapp notification" class="btn-primary" type="object"/>-->
+
+<!--                    <field name="lt" placeholder="Lab tests/Notes"/>-->
+<!--                </sheet>-->
+<!--            </form>-->
+<!--        </field>-->
+<!--    </record>-->
+<odoo>
+    <data>
+        <record id="prescription_form_view" model="ir.ui.view">
+            <field name="name">prescription.form</field>
+            <field name="model">prescription</field>
+            <field name="arch" type="xml">
+                <form string="Prescription Form">
+                    <header>
+                        <h1>
+                            <field name="prenames" readonly="1"/>
+                        </h1>
+                    </header>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="Patient_name" required="1"/>
+                                <field name="contact"/>
+                                <field name="emailadd"/>
+                            </group>
+                            <group>
+                                <field name="patient_age"/>
+                                <field name="patient_gender" widget="radio"/>
+                                <field name="bydoctor"/>
+                            </group>
+                        </group>
+                        <group>
+                            <field name="medsname" widget="one2many_list"/>
+                        </group>
+                        <footer>
+                            <button name="action_done" string="Send WhatsApp Notification" class="btn-primary" type="object"/>
+                        </footer>
+                        <notebook>
+                            <page string="Lab tests/Notes">
+                                <field name="lt"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+ <record id="prescription_tree_view" model="ir.ui.view">
+        <field name="name">Dprescription.form</field>
+        <field name="model">prescription</field>
+        <field name="arch" type="xml">
+            <tree string="prescription Form">
+                <button name="action_done" string="Send whatsapp notification" class="btn-primary" type="object"/>
+                <field name="Patient_name"/>
+                <field name="contact"/>
+                <field name="emailadd"/>
+                <field name="patient_age"/>
+            </tree>
+        </field>
+  </record>
+    </data>
+</odoo>

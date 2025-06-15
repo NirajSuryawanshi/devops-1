@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="patient_prescription_view">
+            <t t-call="web.html_container">
+                <div style="height:600px;border: 1px solid black;">
+
+                    <t t-foreach="docs" t-as="o">
+                        <t t-call="web.internal_layout">
+                            <div class="page" style="border:1px solid black; ">
+                                <div class="text-center" style="font-size: 15px !important; ">
+                                    <tr>
+                                        <td>
+                                            <td>
+                                                <td>
+                                                    <b>
+                                                        <h1>
+                                                            <span t-field="o.bydoctor.CurrentHospital"
+                                                                  style="font-size:60px"/>
+                                                        </h1>
+                                                    </b>
+                                                </td>
+                                                <td>
+                                                    <h3>
+                                                        <span t-field="o.Patient_name"/>
+                                                    </h3>
+                                                </td>
+
+
+                                                <td>
+                                                    <h4>
+                                                        <span t-field="o.Patient_name.mobilephone"/>
+                                                    </h4>
+                                                    <br></br>
+
+                                                </td>
+                                                <td>
+                                                    <!-- <h4> <span t-field="res_company.partner_id.name"/></h4></br>-->
+                                                    <p>
+                                                        <span t-field="res_company.partner_id.name"/>
+                                                    </p>
+                                                    <p>
+                                                        <span t-field="res_company.partner_id.street"/>
+                                                    </p>
+                                                    <span style="padding:1em;">City:
+                                                        <span t-field="res_company.partner_id.city"/>
+                                                    </span>
+                                                    <span style="padding:1em;">Website:
+                                                        <span t-field="res_company.partner_id.website"/>
+                                                    </span>
+                                                    <span style="padding:1em;">Phone:
+                                                        <span t-field="res_company.partner_id.phone"/>
+                                                    </span>
+                                                    <span style="padding:1em;">Email:
+                                                        <span t-field="res_company.partner_id.email"/>
+                                                    </span>
+                                                </td>
+
+                                            </td>
+
+
+                                            <hr size="1" width="100%" color="black"/>
+
+                                            <div class="patient details" style="text-align:left">
+
+                                                <table style="border: solid white">
+
+
+                                                    <tr>
+                                                        <span style="font-size:16px;font-weight:bold;">
+                                                            <span style="padding:23em;"/>
+
+                                                            Sno:
+                                                        </span>
+
+                                                        <!--                                                        <span t-field="o.Patient_name"/>-->
+                                                        <br></br>
+                                                        <br></br>
+
+
+                                                        <span style="font-size:16px;font-weight:bold;">
+                                                            <span style="padding:1em;"/>
+
+                                                            Name:
+                                                        </span>
+                                                        <!--                                                        <span t-field="o.Patient_name"/>-->
+                                                        <span style="padding:6em;"/>
+
+                                                        <span style="font-size:16px;font-weight:bold ;margin-right:10px;">
+                                                            Contact no :
+                                                        </span>
+                                                        <span t-field="o.contact"/>
+
+                                                        <span style="padding:4em;"/>
+
+                                                        <span style="font-size:16px;font-weight:bold ;margin-right:10px;">
+                                                            Age :
+                                                        </span>
+                                                        <span t-field="o.patient_age"/>
+                                                        <br></br>
+
+                                                        <span style="font-size:16px;font-weight:bold;">
+                                                            <br></br>
+                                                            <span style="padding:1em;"/>
+                                                            Email id:
+                                                        </span>
+                                                        <span t-field="o.emailadd"/>
+                                                        <span style="font-size:16px;font-weight:bold;">
+                                                            <span style="padding:4em;"/>
+
+                                                            Gender:
+                                                        </span>
+                                                        <span t-field="o.patient_gender"/>
+                                                        <br></br>
+                                                        <span style="padding:1em;"/>
+
+                                                        <span style="font-size:16px;font-weight:bold;">
+                                                            <span style="padding:1em;"/>
+                                                            <h1>Rx</h1>
+                                                        </span>
+
+                                                    </tr>
+                                                </table>
+
+                                            </div>
+
+
+                                            <table class="table" style="height: 120%;width:100%;">
+
+
+                                                <tr>
+
+                                                    <th>
+                                                        <strong>Medicine</strong>
+                                                    </th>
+
+                                                    <th class="center">
+                                                        <strong>Quantity</strong>
+                                                    </th>
+
+                                                    <th class="center">
+                                                        <strong>Morning</strong>
+                                                    </th>
+                                                    <th class="center">
+                                                        <strong>Night</strong>
+                                                    </th>
+                                                    <th class="center">
+                                                        <strong>Afternoon</strong>
+                                                    </th>
+                                                    <th class="center">
+                                                        <strong>Evening</strong>
+                                                    </th>
+                                                    <th class="center">
+                                                        <strong>MAN</strong>
+                                                    </th>
+                                                    <th class="center">
+                                                        <strong>MN</strong>
+                                                    </th>
+                                                    <th class="center">
+                                                        <strong>AN</strong>
+                                                    </th>
+
+                                                </tr>
+
+
+                                                <tr t-foreach='o.medsname' t-as='line'>
+                                                    <td>
+                                                        <span t-field="line.mname" style="text-align:center"/>
+                                                    </td>
+                                                    <td>
+                                                        <span t-field="line.Quantity"/>
+                                                    </td>
+                                                    <td>
+                                                        <span t-if="line.Morning">Yes</span>
+                                                    </td>
+                                                    <td>
+                                                        <span t-if="line.Afternoon" style="text-align:center">Yes</span>
+                                                    </td>
+                                                    <td>
+                                                        <span t-if="line.Evening">Yes</span>
+                                                    </td>
+                                                    <td>
+                                                        <span t-if="line.Night">Yes</span>
+                                                    </td>
+
+                                                    <td>
+                                                        <span t-if="line.MAN">Yes</span>
+                                                    </td>
+                                                    <td>
+                                                        <span t-if="line.MN">Yes</span>
+                                                    </td>
+                                                    <td>
+                                                        <span t-if="line.AN">Yes</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        <span t-if="o.lt">
+                                                            <strong>Notes:</strong>
+                                                        </span>
+                                                        <br></br>
+                                                        <span t-field="o.lt" style="text-align:center"/>
+                                                    </td>
+
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                    <t t-if="o.bydoctor.signature">
+                                        <img t-att-src="'data:image/png;base64,%s' % o.bydoctor.signature.decode()"
+                                             style="width:200px;height:50px; margin-left:100px; margin-bottom:10px;"/>
+                                    </t>0
+
+                                </div>
+                            </div>
+                        </t>
+                    </t>
+                </div>
+
+            </t>
+        </template>
+    </data>
+
+</odoo>

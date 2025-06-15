@@ -1,0 +1,2431 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* hospital
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0-20201201\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-02 10:30+0000\n"
+"PO-Revision-Date: 2022-05-02 10:30+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_bydoct_bdoctor_name
+msgid " By doctor"
+msgstr "डॉक्टर द्वारे"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.roomnumber_list_action
+msgid " ICU Room details"
+msgstr " आयसीयू रूम तपशील"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_student_college_cname
+msgid " Previous college name"
+msgstr " मागील कॉलेजचे नाव"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<br/>\n"
+"\n"
+"                                                     <span style=\"font-size:16px;font-weight:bold;\">\n"
+"                                                            <br/>\n"
+"                                                <span style=\"padding:1em;\"/>\n"
+"                                               Email id:\n"
+"                                            </span>"
+msgstr "<br/>\n"
+"\n"
+"                                                     <span style=\"font-size:16px;font-weight:bold;\">\n"
+"                                                            <br/>\n"
+"                                                <span style=\"padding:1em;\"/>\n"
+"                                               Email id:\n"
+"                                            </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_doctor_view
+msgid "<br/>\n"
+"\n"
+"                                            <span align=\"left\" style=\"font-size:24px;font-weight:bold;margin-left:10px;\">\n"
+"                                                 Bloodgroup:\n"
+"                                            </span>"
+msgstr "<br/>\n"
+"\n"
+"                                            <span align=\"left\" style=\"font-size:24px;font-weight:bold;margin-left:10px;\">\n"
+"                                                 Bloodgroup:\n"
+"                                            </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_doctor_view
+msgid "<br/>\n"
+"\n"
+"                                            <span align=\"left\" style=\"font-size:24px;font-weight:bold;margin-left:10px;\">\n"
+"                                                 Gender:\n"
+"                                            </span>"
+msgstr "<br/>\n"
+"\n"
+"                                            <span align=\"left\" style=\"font-size:24px;font-weight:bold;margin-left:10px;\">\n"
+"                                                 Gender:\n"
+"                                            </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_doctor_view
+msgid "<br/>\n"
+"\n"
+"                                            <span style=\"font-size:24px;font-weight:bold;\">\n"
+"                                                License NO:\n"
+"                                            </span>"
+msgstr "<br/>\n"
+"\n"
+"                                            <span style=\"font-size:24px;font-weight:bold;\">\n"
+"                                                License NO:\n"
+"                                            </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<br/>\n"
+"                                                     <br/>\n"
+"\n"
+"\n"
+"                                                      <span style=\"font-size:16px;font-weight:bold;\">\n"
+"                                                          <span style=\"padding:1em;\"/>\n"
+"\n"
+"                                               Name:\n"
+"                                            </span>"
+msgstr "<br/>\n"
+"                                                     <br/>\n"
+"\n"
+"\n"
+"                                                      <span style=\"font-size:16px;font-weight:bold;\">\n"
+"                                                          <span style=\"padding:1em;\"/>\n"
+"\n"
+"                                               Name:\n"
+"                                            </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_doctor_view
+msgid "<br/>\n"
+"                                            <span align=\"left\" style=\"font-size:24px;font-weight:bold;margin-left:10px;\">\n"
+"                                                 DOB:\n"
+"                                            </span>"
+msgstr "<br/>\n"
+"                                            <span align=\"left\" style=\"font-size:24px;font-weight:bold;margin-left:10px;\">\n"
+"                                                 DOB:\n"
+"                                            </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_doctor_view
+msgid "<br/>\n"
+"                                            <span align=\"left\" style=\"font-size:24px;font-weight:bold;margin-left:10px;\">\n"
+"                                                Address:\n"
+"                                            </span>"
+msgstr "<br/>\n"
+"                                            <span align=\"left\" style=\"font-size:24px;font-weight:bold;margin-left:10px;\">\n"
+"                                                Address:\n"
+"                                            </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_doctor_view
+msgid "<br/>\n"
+"                                            <span align=\"left\" style=\"font-size:24px;font-weight:bold;margin-left:10px;\">\n"
+"                                                Country:\n"
+"                                            </span>"
+msgstr "<br/>\n"
+"                                            <span align=\"left\" style=\"font-size:24px;font-weight:bold;margin-left:10px;\">\n"
+"                                                Country:\n"
+"                                            </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_doctor_view
+msgid "<br/>\n"
+"                                            <span align=\"left\" style=\"font-size:24px;font-weight:bold;margin-left:10px;\">\n"
+"                                                State:\n"
+"                                            </span>"
+msgstr "<br/>\n"
+"                                            <span align=\"left\" style=\"font-size:24px;font-weight:bold;margin-left:10px;\">\n"
+"                                                State:\n"
+"                                            </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<span style=\"font-size:16px;font-weight:bold;\">\n"
+"                                                            <span style=\"padding:4em;\"/>\n"
+"\n"
+"                                               Gender:\n"
+"                                            </span>"
+msgstr "<span style=\"font-size:16px;font-weight:bold;\">\n"
+"                                                            <span style=\"padding:4em;\"/>\n"
+"\n"
+"                                               Gender:\n"
+"                                            </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<span style=\"font-size:16px;font-weight:bold;\">\n"
+"                                                          <span style=\"padding:23em;\"/>\n"
+"\n"
+"                                              Sno:\n"
+"                                            </span>"
+msgstr "<span style=\"font-size:16px;font-weight:bold;\">\n"
+"                                                          <span style=\"padding:23em;\"/>\n"
+"\n"
+"                                              Sno:\n"
+"                                            </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_doctor_view
+msgid "<span style=\"font-size:80px\">DOCTOR</span>"
+msgstr "<span style=\"font-size:80px\">DOCTOR</span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_session_view
+msgid "<span style=\"padding:3em;\">\n"
+"                                                            <strong>Email id:</strong>\n"
+"                                                        </span>"
+msgstr "<span style=\"padding:3em;\">\n"
+"                                                            <strong>Email id:</strong>\n"
+"                                                        </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_session_view
+msgid "<span style=\"padding:3em;\">\n"
+"                                                            <strong>Gaurdian name:</strong>\n"
+"                                                        </span>"
+msgstr "<span style=\"padding:3em;\">\n"
+"                                                            <strong>Gaurdian name:</strong>\n"
+"                                                        </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_session_view
+msgid "<span style=\"padding:3em;margin-top:20px\">\n"
+"                                                            <strong>Address:</strong>\n"
+"                                                        </span>"
+msgstr "<span style=\"padding:3em;margin-top:20px\">\n"
+"                                                            <strong>Address:</strong>\n"
+"                                                        </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<span style=\"padding:4em;\"/>\n"
+"\n"
+"                                                      <span style=\"font-size:16px;font-weight:bold ;margin-right:10px;\">\n"
+"                                             Age  :\n"
+"                                            </span>"
+msgstr "<span style=\"padding:4em;\"/>\n"
+"\n"
+"                                                      <span style=\"font-size:16px;font-weight:bold ;margin-right:10px;\">\n"
+"                                             Age  :\n"
+"                                            </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<span style=\"padding:6em;\"/>\n"
+"\n"
+"                                                     <span style=\"font-size:16px;font-weight:bold ;margin-right:10px;\">\n"
+"                                             Contact  no  :\n"
+"                                            </span>"
+msgstr "<span style=\"padding:6em;\"/>\n"
+"\n"
+"                                                     <span style=\"font-size:16px;font-weight:bold ;margin-right:10px;\">\n"
+"                                             Contact  no  :\n"
+"                                            </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_session_view
+msgid "<span>\n"
+"\n"
+"                                                            <strong>Name:</strong>\n"
+"                                                        </span>"
+msgstr "<span>\n"
+"\n"
+"                                                            <strong>Name:</strong>\n"
+"                                                        </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_session_view
+msgid "<span>\n"
+"                                                            <strong>Age:</strong>\n"
+"                                                        </span>"
+msgstr "<span>\n"
+"                                                            <strong>Age:</strong>\n"
+"                                                        </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_session_view
+msgid "<span>\n"
+"                                                            <strong>Bloodgroup:</strong>\n"
+"                                                        </span>"
+msgstr "<span>\n"
+"                                                            <strong>Bloodgroup:</strong>\n"
+"                                                        </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_session_view
+msgid "<span>\n"
+"                                                            <strong>Contact  no:</strong>\n"
+"                                                        </span>"
+msgstr "<span>\n"
+"                                                            <strong>Contact  no:</strong>\n"
+"                                                        </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_session_view
+msgid "<span>\n"
+"                                                            <strong>DOB:</strong>\n"
+"                                                        </span>"
+msgstr "<span>\n"
+"                                                            <strong>DOB:</strong>\n"
+"                                                        </span>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<strong>AN</strong>"
+msgstr "<strong>AN</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_student_view
+msgid "<strong>Aadhaar</strong>"
+msgstr "<strong>Aadhaar</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_student_view
+msgid "<strong>Address</strong>"
+msgstr "<strong>Address</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<strong>Afternoon</strong>"
+msgstr "<strong>Afternoon</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_student_view
+msgid "<strong>Blood Group</strong>"
+msgstr "<strong>Blood Group</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_student_view
+msgid "<strong>DOB</strong>"
+msgstr "<strong>DOB</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<strong>Evening</strong>"
+msgstr "<strong>Evening</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_student_view
+msgid "<strong>Gender</strong>"
+msgstr "<strong>Gender</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<strong>MAN</strong>"
+msgstr "<strong>MAN</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<strong>MN</strong>"
+msgstr "<strong>MN</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<strong>Medicine</strong>"
+msgstr "<strong>Medicine</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_student_view
+msgid "<strong>Mobile No</strong>"
+msgstr "<strong>Mobile No</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<strong>Morning</strong>"
+msgstr "<strong>Morning</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<strong>Night</strong>"
+msgstr "<strong>Night</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<strong>Notes:</strong>"
+msgstr "<strong>Notes:</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_student_view
+msgid "<strong>Percuing Year</strong>"
+msgstr "<strong>Percuing Year</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_student_view
+msgid "<strong>Prn No</strong>"
+msgstr "<strong>Prn No</strong>"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "<strong>Quantity</strong>"
+msgstr "<strong>Quantity</strong>"
+
+#. module: hospital
+#: selection:patients,admittedtype:0
+msgid "ADMITTED"
+msgstr "ADMITTED"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_patient_adharnumber
+msgid "Aaadhar number"
+msgstr "Aaadhar number"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_Aadhaar
+msgid "Aadhaar number"
+msgstr "Aadhaar number"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_hospital_address
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_Doctor_Address
+#: model:ir.model.fields,field_description:hospital.field_patients_patient_address
+#: model:ir.ui.view,arch_db:hospital.report_session_view
+msgid "Address"
+msgstr "Address"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.Student_hospital_form_view
+#: model:ir.ui.view,arch_db:hospital.hospital_form_view
+msgid "Address line 1"
+msgstr "Address line 1"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.Student_hospital_form_view
+#: model:ir.ui.view,arch_db:hospital.hospital_form_view
+msgid "Address line 2"
+msgstr "Address line 2"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_form_view
+msgid "Address line1"
+msgstr "Address line1"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_form_view
+msgid "Address line2"
+msgstr "Address line2"
+
+#. module: hospital
+#: model:res.groups,name:hospital.group_hospital_admin
+msgid "Admin"
+msgstr "Admin"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_admittedtype
+msgid "Admission type"
+msgstr "Admission type"
+
+#. module: hospital
+#: model:ir.ui.menu,name:hospital.admitted
+msgid "Admitted Patients "
+msgstr "Admitted Patients "
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.patient2_list_action
+msgid "Admitted patients"
+msgstr "Admitted patients"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medicine_Afternoon
+msgid "Afternoon"
+msgstr "Afternoon"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medicine_AN
+msgid "Afternoon-Night"
+msgstr "Afternoon-Night"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_age
+#: model:ir.model.fields,field_description:hospital.field_patients_Age
+#: model:ir.model.fields,field_description:hospital.field_prescription_patient_age
+msgid "Age"
+msgstr "Age"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_allergy_aname
+#: model:ir.model.fields,field_description:hospital.field_patients_all
+msgid "Allergy name"
+msgstr "Allergy name"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_hospital_number
+msgid "Alternate hospital number"
+msgstr "Alternate hospital number"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_AlternateMob
+msgid "Alternate mobile number"
+msgstr "Alternate mobile number"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.history_form_view
+msgid "Ambulance Number 1"
+msgstr "Ambulance Number 1"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.history_form_view
+msgid "Ambulance Number 2"
+msgstr "Ambulance Number 2"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.history_form_view
+msgid "Ambulance Number 3"
+msgstr "Ambulance Number 3"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_ambulance_number1
+msgid "Ambulance number"
+msgstr "Ambulance number"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.medical_appointment_form_view
+msgid "Appointment"
+msgstr "Appointment"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_appointment_date
+msgid "Appointment Date"
+msgstr "Appointment Date"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_appointment_end
+msgid "Appointment End"
+msgstr "Appointment End"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.medical_appointment_tree_view
+msgid "Appointment Information"
+msgstr "Appointment Information"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_appointmentno
+msgid "Appointment no"
+msgstr "Appointment no"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.action_medical_appointment1
+#: model:ir.ui.menu,name:hospital.menu_medical_appointment1
+#: model:ir.ui.view,arch_db:hospital.medical_appointment_calendar_view
+msgid "Appointments"
+msgstr "Appointments"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_Area_code
+msgid "Area code"
+msgstr "Area code"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_clg_idcard
+msgid "Attach your college Id-card"
+msgstr "Attach your college Id-card"
+
+#. module: hospital
+#: selection:hospital.history,Type:0
+msgid "Ayurvedic Hospital"
+msgstr "Ayurvedic Hospital"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_Birthdate
+msgid "Birthdate"
+msgstr "Birthdate"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_BloodGroup
+msgid "Blood Group"
+msgstr "Blood Group"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_bloodgroup_bg
+#: model:ir.model.fields,field_description:hospital.field_hospitalbg_BloodGroup
+#: model:ir.model.fields,field_description:hospital.field_patients_Bloodgroup
+msgid "Blood group"
+msgstr "Blood group"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_student_bg_bg
+msgid "Blood-Group"
+msgstr "Blood-Group"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_bloodgroup
+msgid "Blood-group"
+msgstr "Blood-group"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.bg_action
+msgid "Bloodgroup form"
+msgstr "Bloodgroup form"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_prescription_bydoctor
+msgid "By doctor/Examiner"
+msgstr "By doctor/Examiner"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.bydoct_form_view
+msgid "Bydoctor Form"
+msgstr "Bydoctor Form"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.bydoct_list_action
+msgid "Bydoctors"
+msgstr "Bydoctors"
+
+#. module: hospital
+#: selection:patients,roomtype:0
+msgid "CCU"
+msgstr "CCU"
+
+#. module: hospital
+#: model:ir.module.category,description:hospital.module_category_hospital
+msgid "Category for hospital"
+msgstr "Category for hospital"
+
+#. module: hospital
+#: selection:patients,roomtype:0
+msgid "Causality"
+msgstr "Causality"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_city_name
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_Student_city
+#: model:ir.model.fields,field_description:hospital.field_patients_patient_city
+msgid "City"
+msgstr "City"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "City:"
+msgstr "City:"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_clgadd
+#: model:ir.model.fields,field_description:hospital.field_student_college_cadd
+msgid "College address"
+msgstr "College address"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_clgname
+#: model:ir.ui.menu,name:hospital.collegename_menu
+msgid "College name"
+msgstr "College name"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_prescription_company1
+msgid "Company1"
+msgstr "Company1"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_tree_view
+msgid "Confirm"
+msgstr "Confirm"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_Consuming_alcohol
+msgid "Consuming alcohol"
+msgstr "Consuming alcohol"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_prescription_contact
+msgid "Contact"
+msgstr "संपर्क"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_hospital_country
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_Doctor_country
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_country
+#: model:ir.model.fields,field_description:hospital.field_patients_patient_country
+#: model:ir.ui.view,arch_db:hospital.report_session_view
+msgid "Country"
+msgstr "देश"
+
+#. module: hospital
+#: model:website.menu,name:hospital.menu_doctor_form
+msgid "Create Doctor"
+msgstr "Create Doctor"
+
+#. module: hospital
+#: model:website.menu,name:hospital.menu_patient_form
+msgid "Create Patient"
+msgstr "Create Patient"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.create_student
+#: model:website.menu,name:hospital.menu_student_form
+msgid "Create student"
+msgstr "Create student"
+
+#. module: hospital
+#: model:ir.actions.act_window,help:hospital.all_list_action
+#: model:ir.actions.act_window,help:hospital.bg_list_action
+#: model:ir.actions.act_window,help:hospital.bydoct_list_action
+#: model:ir.actions.act_window,help:hospital.disease_list_action
+#: model:ir.actions.act_window,help:hospital.doct_list_action
+#: model:ir.actions.act_window,help:hospital.insurance_list_action
+#: model:ir.actions.act_window,help:hospital.m_list_action
+#: model:ir.actions.act_window,help:hospital.medicine_list_action
+#: model:ir.actions.act_window,help:hospital.medicinelist_list_action
+#: model:ir.actions.act_window,help:hospital.patient_list_action
+#: model:ir.actions.act_window,help:hospital.prescription_list_action
+#: model:ir.actions.act_window,help:hospital.roomnumber_list_action
+msgid "Create the first course"
+msgstr "Create the first course"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_allergy_create_uid
+#: model:ir.model.fields,field_description:hospital.field_bydoct_create_uid
+#: model:ir.model.fields,field_description:hospital.field_doct_create_uid
+#: model:ir.model.fields,field_description:hospital.field_doct_document_create_uid
+#: model:ir.model.fields,field_description:hospital.field_doctor_document_create_uid
+#: model:ir.model.fields,field_description:hospital.field_hospital_bloodgroup_create_uid
+#: model:ir.model.fields,field_description:hospital.field_hospital_department_create_uid
+#: model:ir.model.fields,field_description:hospital.field_hospital_doc_create_uid
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_create_uid
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_create_uid
+#: model:ir.model.fields,field_description:hospital.field_hospitalbg_create_uid
+#: model:ir.model.fields,field_description:hospital.field_icurn_create_uid
+#: model:ir.model.fields,field_description:hospital.field_ins_create_uid
+#: model:ir.model.fields,field_description:hospital.field_lifedisease_create_uid
+#: model:ir.model.fields,field_description:hospital.field_mdisease_create_uid
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_create_uid
+#: model:ir.model.fields,field_description:hospital.field_medicaldepartment_create_uid
+#: model:ir.model.fields,field_description:hospital.field_medicine_create_uid
+#: model:ir.model.fields,field_description:hospital.field_medicinelists_create_uid
+#: model:ir.model.fields,field_description:hospital.field_n_data_create_uid
+#: model:ir.model.fields,field_description:hospital.field_patient_visitor_create_uid
+#: model:ir.model.fields,field_description:hospital.field_patients_create_uid
+#: model:ir.model.fields,field_description:hospital.field_prescription_create_uid
+#: model:ir.model.fields,field_description:hospital.field_quantities_create_uid
+#: model:ir.model.fields,field_description:hospital.field_stud_document_create_uid
+#: model:ir.model.fields,field_description:hospital.field_student_bg_create_uid
+#: model:ir.model.fields,field_description:hospital.field_student_college_create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_allergy_create_date
+#: model:ir.model.fields,field_description:hospital.field_bydoct_create_date
+#: model:ir.model.fields,field_description:hospital.field_doct_create_date
+#: model:ir.model.fields,field_description:hospital.field_doct_document_create_date
+#: model:ir.model.fields,field_description:hospital.field_doctor_document_create_date
+#: model:ir.model.fields,field_description:hospital.field_hospital_bloodgroup_create_date
+#: model:ir.model.fields,field_description:hospital.field_hospital_department_create_date
+#: model:ir.model.fields,field_description:hospital.field_hospital_doc_create_date
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_create_date
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_create_date
+#: model:ir.model.fields,field_description:hospital.field_hospitalbg_create_date
+#: model:ir.model.fields,field_description:hospital.field_icurn_create_date
+#: model:ir.model.fields,field_description:hospital.field_ins_create_date
+#: model:ir.model.fields,field_description:hospital.field_lifedisease_create_date
+#: model:ir.model.fields,field_description:hospital.field_mdisease_create_date
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_create_date
+#: model:ir.model.fields,field_description:hospital.field_medicaldepartment_create_date
+#: model:ir.model.fields,field_description:hospital.field_medicine_create_date
+#: model:ir.model.fields,field_description:hospital.field_medicinelists_create_date
+#: model:ir.model.fields,field_description:hospital.field_n_data_create_date
+#: model:ir.model.fields,field_description:hospital.field_patient_visitor_create_date
+#: model:ir.model.fields,field_description:hospital.field_patients_create_date
+#: model:ir.model.fields,field_description:hospital.field_prescription_create_date
+#: model:ir.model.fields,field_description:hospital.field_quantities_create_date
+#: model:ir.model.fields,field_description:hospital.field_stud_document_create_date
+#: model:ir.model.fields,field_description:hospital.field_student_bg_create_date
+#: model:ir.model.fields,field_description:hospital.field_student_college_create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_CurrentHospital
+msgid "Current Hospital"
+msgstr "Current Hospital"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_dob
+msgid "D.O.B"
+msgstr "D.O.B"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_dbp
+msgid "DBP"
+msgstr "DBP"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_dob
+msgid "Date Of Birth"
+msgstr "Date Of Birth"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hr_employee_dateofjoin
+#: model:ir.ui.view,arch_db:hospital.employee_inherit
+msgid "Date of joining"
+msgstr "Date of joining"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_degree
+msgid "Degree"
+msgstr "Degree"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_DegreeFromInstitute
+msgid "Degree From Institute"
+msgstr "Degree From Institute"
+
+#. module: hospital
+#: selection:patients,roomtype:0
+msgid "Deluxe room"
+msgstr "Deluxe room"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_session_view
+msgid "Department"
+msgstr "Department"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_department_dname
+msgid "Department name"
+msgstr "Department name"
+
+#. module: hospital
+#: model:ir.ui.menu,name:hospital.hospital_menu
+#: model:ir.ui.view,arch_db:hospital.hospital_form_view
+msgid "Details"
+msgstr "Details"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_allergy_display_name
+#: model:ir.model.fields,field_description:hospital.field_bydoct_display_name
+#: model:ir.model.fields,field_description:hospital.field_doct_display_name
+#: model:ir.model.fields,field_description:hospital.field_doct_document_display_name
+#: model:ir.model.fields,field_description:hospital.field_doctor_document_display_name
+#: model:ir.model.fields,field_description:hospital.field_hospital_bloodgroup_display_name
+#: model:ir.model.fields,field_description:hospital.field_hospital_department_display_name
+#: model:ir.model.fields,field_description:hospital.field_hospital_doc_display_name
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_display_name
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_display_name
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_display_name
+#: model:ir.model.fields,field_description:hospital.field_hospitalbg_display_name
+#: model:ir.model.fields,field_description:hospital.field_icurn_display_name
+#: model:ir.model.fields,field_description:hospital.field_ins_display_name
+#: model:ir.model.fields,field_description:hospital.field_lifedisease_display_name
+#: model:ir.model.fields,field_description:hospital.field_mdisease_display_name
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_display_name
+#: model:ir.model.fields,field_description:hospital.field_medicaldepartment_display_name
+#: model:ir.model.fields,field_description:hospital.field_medicine_display_name
+#: model:ir.model.fields,field_description:hospital.field_medicinelists_display_name
+#: model:ir.model.fields,field_description:hospital.field_n_data_display_name
+#: model:ir.model.fields,field_description:hospital.field_patient_visitor_display_name
+#: model:ir.model.fields,field_description:hospital.field_patients_display_name
+#: model:ir.model.fields,field_description:hospital.field_prescription_display_name
+#: model:ir.model.fields,field_description:hospital.field_q_data_display_name
+#: model:ir.model.fields,field_description:hospital.field_quantities_display_name
+#: model:ir.model.fields,field_description:hospital.field_stud_document_display_name
+#: model:ir.model.fields,field_description:hospital.field_student_bg_display_name
+#: model:ir.model.fields,field_description:hospital.field_student_college_display_name
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: hospital
+#: selection:hospital_managment,MaritialStatus:0
+#: selection:patients,marital_status:0
+msgid "Divorcee"
+msgstr "Divorcee"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_doctor_id
+#: model:ir.ui.menu,name:hospital.hospital_menu1
+#: model:ir.ui.menu,name:hospital.hospital_menu2
+#: model:res.groups,name:hospital.group_hospital_doctor
+msgid "Doctor"
+msgstr "Doctor"
+
+#. module: hospital
+#: model:ir.ui.menu,name:hospital.ddoc_menu
+msgid "Doctor Documents"
+msgstr "Doctor Documents"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.hospital_form_view
+#: model:ir.ui.view,arch_db:hospital.hospital_tree_view
+msgid "Doctor Form"
+msgstr "Doctor Form"
+
+#. module: hospital
+#: model:ir.actions.report,name:hospital.report_doctor
+msgid "Doctor Report"
+msgstr "Doctor Report"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.hospital_action
+msgid "Doctor form"
+msgstr "Doctor form"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_docname
+msgid "Doctors"
+msgstr "Doctors"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_doc_hdocuments
+#: model:ir.ui.view,arch_db:hospital.Student_hospital_form_view
+#: model:ir.ui.view,arch_db:hospital.history_form_view
+#: model:ir.ui.view,arch_db:hospital.hospital_form_view
+#: model:ir.ui.view,arch_db:hospital.patient_form_view
+msgid "Document"
+msgstr "Document"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_studentdocname
+msgid "Document Details"
+msgstr "Document Details"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_doct_document_docnames
+#: model:ir.model.fields,field_description:hospital.field_doctor_document_documentname
+#: model:ir.model.fields,field_description:hospital.field_hospital_doc_hospitaldname
+#: model:ir.model.fields,field_description:hospital.field_stud_document_sdocnames
+msgid "Document Name"
+msgstr "Document Name"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_Docname
+msgid "Document dsetails"
+msgstr "Document dsetails"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.doc_action
+#: model:ir.actions.act_window,name:hospital.sdoc_action
+msgid "Document form"
+msgstr "Document form"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_hdname
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_Docuname
+msgid "Document name"
+msgstr "Document name"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_doct_document_ddocuments
+#: model:ir.model.fields,field_description:hospital.field_doctor_document_documents
+#: model:ir.model.fields,field_description:hospital.field_stud_document_sdocuments
+#: model:ir.ui.menu,name:hospital.doc_menu
+msgid "Documents"
+msgstr "Documents"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_Doctor_Education
+msgid "Education"
+msgstr "Education"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.Student_hospital_form_view
+msgid "EducationDetails"
+msgstr "EducationDetails"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_hospital_email
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_login
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_login
+#: model:ir.ui.view,arch_db:hospital.create_student
+#: model:ir.ui.view,arch_db:hospital.report_session_view
+msgid "Email"
+msgstr "ईमेल"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_login
+msgid "Email ID"
+msgstr "Email ID"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_prescription_emailadd
+msgid "Email Id"
+msgstr "Email Id"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.create_doctor
+msgid "Email address"
+msgstr "Email address"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "Email:"
+msgstr "Email:"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_emergency_number
+#: model:ir.model.fields,field_description:hospital.field_patients_emergency_number
+msgid "Emergency number"
+msgstr "Emergency number"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hr_employee
+msgid "Employee"
+msgstr "Employee"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.hospital_form_view
+msgid "Enter your mobie number"
+msgstr "Enter your mobie number"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_session_view
+msgid "Establish"
+msgstr "Establish"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_Establish
+msgid "Established in"
+msgstr "Established in"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medicine_Evening
+msgid "Evening"
+msgstr "Evening"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_Experience
+msgid "Expirence"
+msgstr "Expirence"
+
+#. module: hospital
+#: selection:hospital_managment,Gender:0
+#: selection:hospital_student,gender:0
+#: selection:patients,pGender:0
+#: selection:prescription,patient_gender:0
+msgid "Female"
+msgstr "Female"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.Student_hospital_form_view
+msgid "For ex = abc@gmail.com"
+msgstr "For ex = abc@gmail.com"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.pro_form_view
+#: model:ir.ui.view,arch_db:hospital.pro_tree_view
+#: model:ir.ui.view,arch_db:hospital.set_form_view
+#: model:ir.ui.view,arch_db:hospital.set_tree_view
+msgid "Form"
+msgstr "Form"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_dForm
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_Form
+msgid "Form no"
+msgstr "Form no"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_names
+#: model:ir.model.fields,field_description:hospital.field_prescription_prenames
+msgid "Form number"
+msgstr "Form number"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_Gaurdian_name
+msgid "Gaurdian name"
+msgstr "Gaurdian name"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_Gaurdian_phone
+msgid "Gaurdian phone"
+msgstr "Gaurdian phone"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_Gender
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_gender
+#: model:ir.model.fields,field_description:hospital.field_patients_pGender
+#: model:ir.model.fields,field_description:hospital.field_prescription_patient_gender
+msgid "Gender"
+msgstr "Gender"
+
+#. module: hospital
+#: selection:hospital.history,Type:0
+msgid "General Hospital"
+msgstr "General Hospital"
+
+#. module: hospital
+#: selection:patients,roomtype:0
+msgid "General ward"
+msgstr "General ward"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_ins_Group_no
+msgid "Group number"
+msgstr "Group number"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_Gstno
+msgid "Gst no"
+msgstr "Gst no"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_heartrate
+msgid "Heartrate"
+msgstr "Heartrate"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_Height
+msgid "Height (in cm)"
+msgstr "Height (in cm)"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_form_view
+msgid "History"
+msgstr "History"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_homephone
+msgid "Home phone"
+msgstr "Home phone"
+
+#. module: hospital
+#: selection:hospital.history,Type:0
+msgid "Homeopathic hospital"
+msgstr "Homeopathic hospital"
+
+#. module: hospital
+#: model:ir.ui.menu,name:hospital.hist_menu
+#: model:ir.ui.menu,name:hospital.hist_menu1
+#: model:ir.ui.menu,name:hospital.session_menu
+msgid "Hospital"
+msgstr "Hospital"
+
+#. module: hospital
+#: model:ir.ui.menu,name:hospital.hdoc_menu
+msgid "Hospital Documents"
+msgstr "Hospital Documents"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.history_form_view
+#: model:ir.ui.view,arch_db:hospital.report_session_view
+msgid "Hospital Information"
+msgstr "Hospital Information"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_HospitalHistorylist
+msgid "Hospital Name"
+msgstr "Hospital Name"
+
+#. module: hospital
+#: model:ir.actions.report,name:hospital.report_session222
+msgid "Hospital Report"
+msgstr "Hospital Report"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_hospital_department
+msgid "Hospital department "
+msgstr "Hospital department "
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.history_action
+msgid "Hospital form"
+msgstr "Hospital form"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.history_form_view
+msgid "Hospital legal information"
+msgstr "Hospital legal information"
+
+#. module: hospital
+#: selection:patients,roomtype:0
+msgid "ICU"
+msgstr "ICU"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_allergy_id
+#: model:ir.model.fields,field_description:hospital.field_bydoct_id
+#: model:ir.model.fields,field_description:hospital.field_doct_document_id
+#: model:ir.model.fields,field_description:hospital.field_doct_id
+#: model:ir.model.fields,field_description:hospital.field_doctor_document_id
+#: model:ir.model.fields,field_description:hospital.field_hospital_bloodgroup_id
+#: model:ir.model.fields,field_description:hospital.field_hospital_department_id
+#: model:ir.model.fields,field_description:hospital.field_hospital_doc_id
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_id
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_id
+#: model:ir.model.fields,field_description:hospital.field_hospitalbg_id
+#: model:ir.model.fields,field_description:hospital.field_icurn_id
+#: model:ir.model.fields,field_description:hospital.field_ins_id
+#: model:ir.model.fields,field_description:hospital.field_lifedisease_id
+#: model:ir.model.fields,field_description:hospital.field_mdisease_id
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_id
+#: model:ir.model.fields,field_description:hospital.field_medicaldepartment_id
+#: model:ir.model.fields,field_description:hospital.field_medicine_id
+#: model:ir.model.fields,field_description:hospital.field_medicinelists_id
+#: model:ir.model.fields,field_description:hospital.field_n_data_id
+#: model:ir.model.fields,field_description:hospital.field_patient_visitor_id
+#: model:ir.model.fields,field_description:hospital.field_patients_id
+#: model:ir.model.fields,field_description:hospital.field_prescription_id
+#: model:ir.model.fields,field_description:hospital.field_quantities_id
+#: model:ir.model.fields,field_description:hospital.field_stud_document_id
+#: model:ir.model.fields,field_description:hospital.field_student_bg_id
+#: model:ir.model.fields,field_description:hospital.field_student_college_id
+msgid "ID"
+msgstr "ID"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_icu
+msgid "In patient beds(ICU)"
+msgstr "In patient beds(ICU)"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_nonicu
+msgid "In patient beds(Non ICU)"
+msgstr "In patient beds(Non ICU)"
+
+#. module: hospital
+#: model:ir.ui.menu,name:hospital.insurance_menu
+#: model:ir.ui.view,arch_db:hospital.patient_form_view
+msgid "Insurance"
+msgstr "Insurance"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.prescription_form_view
+msgid "Lab tests/Notes"
+msgstr "Lab tests/Notes"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_allergy___last_update
+#: model:ir.model.fields,field_description:hospital.field_bydoct___last_update
+#: model:ir.model.fields,field_description:hospital.field_doct___last_update
+#: model:ir.model.fields,field_description:hospital.field_doct_document___last_update
+#: model:ir.model.fields,field_description:hospital.field_doctor_document___last_update
+#: model:ir.model.fields,field_description:hospital.field_hospital_bloodgroup___last_update
+#: model:ir.model.fields,field_description:hospital.field_hospital_department___last_update
+#: model:ir.model.fields,field_description:hospital.field_hospital_doc___last_update
+#: model:ir.model.fields,field_description:hospital.field_hospital_history___last_update
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment___last_update
+#: model:ir.model.fields,field_description:hospital.field_hospital_student___last_update
+#: model:ir.model.fields,field_description:hospital.field_hospitalbg___last_update
+#: model:ir.model.fields,field_description:hospital.field_icurn___last_update
+#: model:ir.model.fields,field_description:hospital.field_ins___last_update
+#: model:ir.model.fields,field_description:hospital.field_lifedisease___last_update
+#: model:ir.model.fields,field_description:hospital.field_mdisease___last_update
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1___last_update
+#: model:ir.model.fields,field_description:hospital.field_medicaldepartment___last_update
+#: model:ir.model.fields,field_description:hospital.field_medicine___last_update
+#: model:ir.model.fields,field_description:hospital.field_medicinelists___last_update
+#: model:ir.model.fields,field_description:hospital.field_n_data___last_update
+#: model:ir.model.fields,field_description:hospital.field_patient_visitor___last_update
+#: model:ir.model.fields,field_description:hospital.field_patients___last_update
+#: model:ir.model.fields,field_description:hospital.field_prescription___last_update
+#: model:ir.model.fields,field_description:hospital.field_q_data___last_update
+#: model:ir.model.fields,field_description:hospital.field_quantities___last_update
+#: model:ir.model.fields,field_description:hospital.field_stud_document___last_update
+#: model:ir.model.fields,field_description:hospital.field_student_bg___last_update
+#: model:ir.model.fields,field_description:hospital.field_student_college___last_update
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_allergy_write_uid
+#: model:ir.model.fields,field_description:hospital.field_bydoct_write_uid
+#: model:ir.model.fields,field_description:hospital.field_doct_document_write_uid
+#: model:ir.model.fields,field_description:hospital.field_doct_write_uid
+#: model:ir.model.fields,field_description:hospital.field_doctor_document_write_uid
+#: model:ir.model.fields,field_description:hospital.field_hospital_bloodgroup_write_uid
+#: model:ir.model.fields,field_description:hospital.field_hospital_department_write_uid
+#: model:ir.model.fields,field_description:hospital.field_hospital_doc_write_uid
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_write_uid
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_write_uid
+#: model:ir.model.fields,field_description:hospital.field_hospitalbg_write_uid
+#: model:ir.model.fields,field_description:hospital.field_icurn_write_uid
+#: model:ir.model.fields,field_description:hospital.field_ins_write_uid
+#: model:ir.model.fields,field_description:hospital.field_lifedisease_write_uid
+#: model:ir.model.fields,field_description:hospital.field_mdisease_write_uid
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_write_uid
+#: model:ir.model.fields,field_description:hospital.field_medicaldepartment_write_uid
+#: model:ir.model.fields,field_description:hospital.field_medicine_write_uid
+#: model:ir.model.fields,field_description:hospital.field_medicinelists_write_uid
+#: model:ir.model.fields,field_description:hospital.field_n_data_write_uid
+#: model:ir.model.fields,field_description:hospital.field_patient_visitor_write_uid
+#: model:ir.model.fields,field_description:hospital.field_patients_write_uid
+#: model:ir.model.fields,field_description:hospital.field_prescription_write_uid
+#: model:ir.model.fields,field_description:hospital.field_quantities_write_uid
+#: model:ir.model.fields,field_description:hospital.field_stud_document_write_uid
+#: model:ir.model.fields,field_description:hospital.field_student_bg_write_uid
+#: model:ir.model.fields,field_description:hospital.field_student_college_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_allergy_write_date
+#: model:ir.model.fields,field_description:hospital.field_bydoct_write_date
+#: model:ir.model.fields,field_description:hospital.field_doct_document_write_date
+#: model:ir.model.fields,field_description:hospital.field_doct_write_date
+#: model:ir.model.fields,field_description:hospital.field_doctor_document_write_date
+#: model:ir.model.fields,field_description:hospital.field_hospital_bloodgroup_write_date
+#: model:ir.model.fields,field_description:hospital.field_hospital_department_write_date
+#: model:ir.model.fields,field_description:hospital.field_hospital_doc_write_date
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_write_date
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_write_date
+#: model:ir.model.fields,field_description:hospital.field_hospitalbg_write_date
+#: model:ir.model.fields,field_description:hospital.field_icurn_write_date
+#: model:ir.model.fields,field_description:hospital.field_ins_write_date
+#: model:ir.model.fields,field_description:hospital.field_lifedisease_write_date
+#: model:ir.model.fields,field_description:hospital.field_mdisease_write_date
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_write_date
+#: model:ir.model.fields,field_description:hospital.field_medicaldepartment_write_date
+#: model:ir.model.fields,field_description:hospital.field_medicine_write_date
+#: model:ir.model.fields,field_description:hospital.field_medicinelists_write_date
+#: model:ir.model.fields,field_description:hospital.field_n_data_write_date
+#: model:ir.model.fields,field_description:hospital.field_patient_visitor_write_date
+#: model:ir.model.fields,field_description:hospital.field_patients_write_date
+#: model:ir.model.fields,field_description:hospital.field_prescription_write_date
+#: model:ir.model.fields,field_description:hospital.field_quantities_write_date
+#: model:ir.model.fields,field_description:hospital.field_stud_document_write_date
+#: model:ir.model.fields,field_description:hospital.field_student_bg_write_date
+#: model:ir.model.fields,field_description:hospital.field_student_college_write_date
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_checkup
+msgid "Last body check up"
+msgstr "Last body check up"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_checkupdoc
+msgid "Last prescription"
+msgstr "Last prescription"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_session_view
+msgid "License Number"
+msgstr "License Number"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_hospitalicense_Number
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_License_Number
+msgid "License number"
+msgstr "License number"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_ltdisease
+msgid "Lifetime disease"
+msgstr "Lifetime disease"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_diseasepre
+msgid "Lifetime disease description"
+msgstr "Lifetime disease description"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.disease_list_action
+msgid "Lifetimedisease"
+msgstr "Lifetimedisease"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_ifyesnotes
+msgid "List of medicines"
+msgstr "List of medicines"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_Logo
+#: model:ir.ui.view,arch_db:hospital.report_session_view
+msgid "Logo"
+msgstr "Logo"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_mdisease_mdiseasename
+#: model:ir.model.fields,field_description:hospital.field_patients_mdname
+msgid "Major disease name"
+msgstr "Major disease name"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.m_list_action
+msgid "Majortimedisease"
+msgstr "Majortimedisease"
+
+#. module: hospital
+#: selection:hospital_managment,Gender:0
+#: selection:hospital_student,gender:0
+#: selection:patients,pGender:0
+#: selection:prescription,patient_gender:0
+msgid "Male"
+msgstr "Male"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_marital_status
+msgid "Marital status"
+msgstr "Marital status"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_MaritialStatus
+msgid "Maritial Status"
+msgstr "Maritial Status"
+
+#. module: hospital
+#: selection:hospital_managment,MaritialStatus:0
+#: selection:patients,marital_status:0
+msgid "Married"
+msgstr "Married"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_form_view
+msgid "Medical"
+msgstr "Medical"
+
+#. module: hospital
+#: selection:hospital.history,Type:0
+msgid "Medical College Hospital"
+msgstr "Medical College Hospital"
+
+#. module: hospital
+#: selection:medical.appointment1,urgency_level:0
+msgid "Medical Emergency"
+msgstr "Medical Emergency"
+
+#. module: hospital
+#: model:ir.module.category,name:hospital.module_category_hospital
+msgid "Medical Portal"
+msgstr "Medical Portal"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.medicine_list_action
+#: model:ir.model.fields,field_description:hospital.field_medicine_mname
+#: model:ir.ui.menu,name:hospital.Medicine_menu
+msgid "Medicine"
+msgstr "Medicine"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.medicine_form_view
+msgid "Medicine Form"
+msgstr "Medicine Form"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_prescription_medsname
+msgid "Medicine details"
+msgstr "Medicine details"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medicinelists_medlist
+msgid "Medicine name"
+msgstr "Medicine name"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.medicine_tree_view
+msgid "Medicine tree"
+msgstr "Medicine tree"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.medicinelist_list_action
+msgid "Medicinelist"
+msgstr "Medicinelist"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_Mobile_number
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_Mobileno
+#: model:ir.model.fields,field_description:hospital.field_patients_mobilephone
+msgid "Mobile number"
+msgstr "Mobile number"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medicine_Morning
+msgid "Morning"
+msgstr "Morning"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medicine_MAN
+msgid "Morning-Afternoon-Night"
+msgstr "Morning-Afternoon-Night"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medicine_MN
+msgid "Morning-Night"
+msgstr "Morning-Night"
+
+#. module: hospital
+#: selection:hospital.history,Type:0
+msgid "Multispeciality Hospital"
+msgstr "Multispeciality Hospital"
+
+#. module: hospital
+#: selection:patients,admittedtype:0
+msgid "NOT ADMITTED"
+msgstr "NOT ADMITTED"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.sale_order_inherit111
+msgid "NTab"
+msgstr "NTab"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_hospital_name
+#: model:ir.model.fields,field_description:hospital.field_patients_name
+#: model:ir.ui.view,arch_db:hospital.create_doctor
+#: model:ir.ui.view,arch_db:hospital.create_student
+#: model:ir.ui.view,arch_db:hospital.report_session_view
+msgid "Name"
+msgstr "नाम"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medicine_Night
+msgid "Night"
+msgstr "Night"
+
+#. module: hospital
+#: selection:hospital_student,degree:0
+#: selection:patients,Consuming_alcohol:0
+#: selection:patients,Past_doctor:0
+#: selection:patients,Smoking:0
+#: selection:patients,renual_alert:0
+#: selection:patients,tamc:0
+msgid "No"
+msgstr "No"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_theatre
+msgid "No. of operation theatre"
+msgstr "No. of operation theatre"
+
+#. module: hospital
+#: selection:medical.appointment1,urgency_level:0
+msgid "Normal"
+msgstr "Normal"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_occupation
+msgid "Occupation"
+msgstr "Occupation"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_occupation_address
+msgid "Occupation address"
+msgstr "Occupation address"
+
+#. module: hospital
+#: selection:hospital.history,Type:0
+#: selection:hospital_student,gender:0
+#: model:ir.ui.view,arch_db:hospital.patient_form_view
+msgid "Other"
+msgstr "Other"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_OtherClinic
+msgid "Other Clinic\\Hospital"
+msgstr "Other Clinic\\Hospital"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_Oxygen
+msgid "Oxygen Tanks"
+msgstr "Oxygen Tanks"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_prn
+msgid "PRN number"
+msgstr "PRN number"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_n_data_partno2
+#: model:ir.model.fields,field_description:hospital.field_q_data_partno
+msgid "Part No."
+msgstr "Part No."
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_sale_order_partno
+msgid "Partno"
+msgstr "Partno"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_sale_order_partno2
+msgid "Partno2"
+msgstr "Partno2"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_Past_doctor
+msgid "Past doctor"
+msgstr "Past doctor"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_doctornm
+msgid "Past doctor details"
+msgstr "Past doctor details"
+
+#. module: hospital
+#: model:ir.actions.report,name:hospital.report_session
+#: model:ir.ui.menu,name:hospital.patient_menu
+#: model:ir.ui.menu,name:hospital.patient_menu1
+#: model:res.groups,name:hospital.group_hospital_patient
+msgid "Patient"
+msgstr "Patient"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_patient_id
+#: model:ir.model.fields,field_description:hospital.field_patient_visitor_pname
+#: model:ir.model.fields,field_description:hospital.field_prescription_Patient_name
+msgid "Patient name"
+msgstr "Patient name"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_urgency_level
+msgid "Patient status"
+msgstr "Patient status"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_percuing_year
+msgid "Percuing year"
+msgstr "Percuing year"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.hospital_form_view
+msgid "Personal Details"
+msgstr "Personal Details"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_form_view
+msgid "Personal information"
+msgstr "Personal information"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "Phone:"
+msgstr "Phone:"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_Doctor_photo
+#: model:ir.model.fields,field_description:hospital.field_patients_Image
+#: model:ir.model.fields,help:hospital.field_patients_Image
+msgid "Photo"
+msgstr "Photo"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_dpincode
+msgid "Pin code"
+msgstr "Pin code"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_form_view
+msgid "Pincode"
+msgstr "Pincode"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_ins_insurance_name
+msgid "Plan"
+msgstr "Plan"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_ins_insurance_no
+msgid "Policy number"
+msgstr "Policy number"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.prescription_list_action
+#: model:ir.model.fields,field_description:hospital.field_patients_Doctor_prescription
+#: model:ir.model.fields,field_description:hospital.field_patients_doctorpre
+#: model:ir.model.fields,field_description:hospital.field_prescription_presc
+#: model:ir.ui.menu,name:hospital.prescription_menu
+msgid "Prescription"
+msgstr "Prescription"
+
+#. module: hospital
+#: selection:hospital.history,Type:0
+msgid "Private Hospital"
+msgstr "Private Hospital"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_q_data_productno
+msgid "Product Id"
+msgstr "Product Id"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_ins_insurance_provider
+msgid "Provider"
+msgstr "Provider"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medicine_Quantity
+#: model:ir.model.fields,field_description:hospital.field_quantities_qty
+msgid "Quantity"
+msgstr "मात्रा"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_sale_order
+msgid "Quotation"
+msgstr "Quotation"
+
+#. module: hospital
+#: model:res.groups,name:hospital.group_hospital_receptionist
+msgid "Receptionist"
+msgstr "Receptionist"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.report_session_view
+msgid "Registration No"
+msgstr "Registration No"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_registraionNo
+msgid "Registration no"
+msgstr "Registration no"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_renual_alert
+msgid "Renual alert"
+msgstr "Renual alert"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_respiratory_rate
+msgid "Respiratory rate"
+msgstr "Respiratory rate"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_n_data_revisedorder
+msgid "Revised Order Quantity"
+msgstr "Revised Order Quantity"
+
+#. module: hospital
+#: model:ir.ui.menu,name:hospital.icuid
+msgid "Room No"
+msgstr "Room No"
+
+#. module: hospital
+#: model:ir.ui.menu,name:hospital.room
+msgid "Room details"
+msgstr "Room details"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_icurn_IcuRoomno
+#: model:ir.model.fields,field_description:hospital.field_patients_roomno
+#: model:ir.model.fields,field_description:hospital.field_patients_roomno1
+#: model:ir.model.fields,field_description:hospital.field_patients_roomno2
+#: model:ir.model.fields,field_description:hospital.field_patients_roomno3
+#: model:ir.model.fields,field_description:hospital.field_patients_roomno4
+#: model:ir.model.fields,field_description:hospital.field_patients_roomno5
+#: model:ir.model.fields,field_description:hospital.field_patients_roomno6
+msgid "Room no"
+msgstr "Room no"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "Rx"
+msgstr "Rx"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_sbp
+msgid "SBP"
+msgstr "SBP"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_Security_relation
+msgid "Security relation"
+msgstr "Security relation"
+
+#. module: hospital
+#: selection:patients,roomtype:0
+msgid "Semi-special room"
+msgstr "Semi-special room"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_n_data_setquant
+msgid "Set Quantity"
+msgstr "Set Quantity"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_Smoking
+msgid "Smoking"
+msgstr "Smoking"
+
+#. module: hospital
+#: selection:patients,roomtype:0
+msgid "Special ward"
+msgstr "Special ward"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_speciality
+msgid "Speciality"
+msgstr "Speciality"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_specialization
+msgid "Specialization"
+msgstr "Specialization"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_hospital_state
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_state
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_State
+#: model:ir.model.fields,field_description:hospital.field_patients_pstate
+#: model:ir.ui.view,arch_db:hospital.report_session_view
+msgid "State"
+msgstr "State"
+
+#. module: hospital
+#: model:ir.ui.menu,name:hospital.Student_hospital_menu1
+#: model:ir.ui.menu,name:hospital.Student_hospital_menu2
+#: model:res.groups,name:hospital.group_hospital_student
+msgid "Student"
+msgstr "Student"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_Student_Address
+msgid "Student address"
+msgstr "Student address"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_Student_college
+msgid "Student college"
+msgstr "Student college"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_Student_education
+msgid "Student education"
+msgstr "Student education"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_name
+msgid "Student name"
+msgstr "Student name"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_student_picture
+msgid "Student picture"
+msgstr "Student picture"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.create_doctor
+#: model:ir.ui.view,arch_db:hospital.create_patient_form
+msgid "Submit"
+msgstr "Submit"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_ins_Subscriberln
+msgid "Subscriber Last name"
+msgstr "Subscriber Last name"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_ins_Subscriberfn
+msgid "Subscriber first name"
+msgstr "Subscriber first name"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_ins_Subscribermn
+msgid "Subscriber middle name"
+msgstr "Subscriber middle name"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_ins_Subscriberrel
+msgid "Subscriber relationship"
+msgstr "Subscriber relationship"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_symptons
+msgid "Symptoms"
+msgstr "Symptoms"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_tamc
+msgid "Taking any medication currently"
+msgstr "Taking any medication currently"
+
+#. module: hospital
+#: selection:hospital.history,Type:0
+msgid "Teaching-cum- Research Hospital"
+msgstr "Teaching-cum- Research Hospital"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_Temp
+msgid "Temperature"
+msgstr "Temperature"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.doc_success_ir_ui_view
+#: model:ir.ui.view,arch_db:hospital.patient_submit_ir_ui_view
+#: model:ir.ui.view,arch_db:hospital.student_thanks_ir_ui_view
+#: model:website.page,arch_db:hospital.doc_success
+#: model:website.page,arch_db:hospital.patient_submit
+#: model:website.page,arch_db:hospital.student_thanks
+msgid "Thanks!"
+msgstr "Thanks!"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_submit_ir_ui_view
+#: model:website.page,arch_db:hospital.patient_submit
+msgid "The Patient has been Created successfully."
+msgstr "The Patient has been Created successfully."
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.doc_success_ir_ui_view
+#: model:website.page,arch_db:hospital.doc_success
+msgid "The doctor has been Created successfully."
+msgstr "The doctor has been Created successfully."
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.student_thanks_ir_ui_view
+#: model:website.page,arch_db:hospital.student_thanks
+msgid "The student has been Created successfully."
+msgstr "The student has been Created successfully."
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patient_visitor_vdate
+msgid "Time"
+msgstr "Time"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_beds
+msgid "Total no. of beds "
+msgstr "Total no. of beds "
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_Type
+msgid "Type"
+msgstr "प्रकार"
+
+#. module: hospital
+#: selection:hospital.history,Type:0
+msgid "Unani Hospital"
+msgstr "Unani Hospital"
+
+#. module: hospital
+#: selection:hospital_managment,MaritialStatus:0
+#: selection:patients,marital_status:0
+msgid "Unmarried"
+msgstr "Unmarried"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_signature
+msgid "Upload Signature"
+msgstr "Upload Signature"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_managment_certificate
+msgid "Upload certificate"
+msgstr "Upload certificate"
+
+#. module: hospital
+#: selection:medical.appointment1,urgency_level:0
+msgid "Urgent"
+msgstr "Urgent"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_visit
+msgid "Visitor"
+msgstr "Visitor"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.pv_action
+#: model:ir.ui.menu,name:hospital.visi
+msgid "Visitor form"
+msgstr "Visitor form"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patientvisitor_form_view
+msgid "Visitors Form"
+msgstr "Visitors Form"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patient_visitor_vname
+msgid "Vistor name"
+msgstr "Vistor name"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.medical_appointment_form_view
+msgid "Vital"
+msgstr "Vital"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_form_view
+msgid "Ward"
+msgstr "Ward"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_roomtype
+msgid "Ward type"
+msgstr "Ward type"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_hwebsite
+#: model:ir.ui.view,arch_db:hospital.report_session_view
+msgid "Website"
+msgstr "Website"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+msgid "Website:"
+msgstr "Website:"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medical_appointment1_weight
+msgid "Weight"
+msgstr "Weight"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_patients_Weight
+msgid "Weight (in kg)"
+msgstr "Weight (in kg)"
+
+#. module: hospital
+#: selection:hospital_student,degree:0
+#: model:ir.ui.view,arch_db:hospital.patient_prescription_view
+#: selection:patients,Consuming_alcohol:0
+#: selection:patients,Past_doctor:0
+#: selection:patients,Smoking:0
+#: selection:patients,renual_alert:0
+#: selection:patients,tamc:0
+msgid "Yes"
+msgstr "Yes"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.create_patient_form
+msgid "Your Email:"
+msgstr "Your Email:"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.create_patient_form
+msgid "Your name:"
+msgstr "Your name:"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_history_hospital_zip
+#: model:ir.ui.view,arch_db:hospital.history_form_view
+msgid "Zip"
+msgstr "Zip"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_form_view
+#: model:ir.ui.view,arch_db:hospital.patient_tree_view
+msgid "abc@gmail.com"
+msgstr "abc@gmail.com"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.all_list_action
+msgid "allergies"
+msgstr "allergies"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_allergy
+#: model:ir.ui.menu,name:hospital.all_menu
+msgid "allergy"
+msgstr "allergy"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.bg_list_action
+msgid "bg"
+msgstr "bg"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.bg_form_view
+#: model:ir.ui.view,arch_db:hospital.bg_tree_view
+msgid "bloodgroup Form"
+msgstr "bloodgroup Form"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_bydoct
+msgid "bydoct"
+msgstr "bydoct"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.collegename_action
+msgid "collegeName"
+msgstr "collegeName"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.collegename_tree_view
+msgid "collegename"
+msgstr "collegename"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.collegename_form_view
+msgid "collegename_form"
+msgstr "collegename_form"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_country_managment
+msgid "country_managment"
+msgstr "country_managment"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.Ldisease_form_view
+#: model:ir.ui.view,arch_db:hospital.Ldisease_tree_view
+#: model:ir.ui.view,arch_db:hospital.allergy_form_view
+#: model:ir.ui.view,arch_db:hospital.mdisease_form_view
+msgid "disease Form"
+msgstr "disease Form"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_doc
+msgid "doc"
+msgstr "doc"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_doct
+msgid "doct"
+msgstr "doct"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_doct_document
+msgid "doct.document"
+msgstr "doct.document"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.doct_list_action
+msgid "doctor"
+msgstr "doctor"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.doct_form_view
+#: model:ir.ui.view,arch_db:hospital.doct_tree_view
+msgid "doctor Form"
+msgstr "doctor Form"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_doct_doctor_name
+msgid "doctor name"
+msgstr "doctor name"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_doct_doctor_pre
+msgid "doctor prescription"
+msgstr "doctor prescription"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_doctor_document
+msgid "doctor.document"
+msgstr "doctor.document"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.hospital_doc_form_view
+#: model:ir.ui.view,arch_db:hospital.hospital_doc_tree_view
+msgid "document Form"
+msgstr "document Form"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_sdocument
+msgid "documents"
+msgstr "documents"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.ddoc_form_view
+#: model:ir.ui.view,arch_db:hospital.ddoc_tree_view
+#: model:ir.ui.view,arch_db:hospital.doc_form_view
+#: model:ir.ui.view,arch_db:hospital.doc_tree_view
+#: model:ir.ui.view,arch_db:hospital.sdoc_form_view
+#: model:ir.ui.view,arch_db:hospital.sdoc_tree_view
+msgid "documents Form"
+msgstr "documents Form"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.create_patient_form
+#: model:ir.ui.view,arch_db:hospital.create_student
+msgid "e.g. John Doe"
+msgstr "e.g. John Doe"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.create_doctor
+msgid "eg.Jhonny Dep"
+msgstr "eg.Jhonny Dep"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.history_form_view
+#: model:ir.ui.view,arch_db:hospital.history_tree_view
+msgid "history Form"
+msgstr "history Form"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hosp
+msgid "hosp"
+msgstr "hosp"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hosp_managment
+msgid "hosp_managment"
+msgstr "hosp_managment"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.hdoc_action
+msgid "hospital Document"
+msgstr "hospital Document"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hospital_bloodgroup
+msgid "hospital.bloodgroup"
+msgstr "hospital.bloodgroup"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hospital_city
+msgid "hospital.city"
+msgstr "hospital.city"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hospital_country
+msgid "hospital.country"
+msgstr "hospital.country"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hospital_current
+msgid "hospital.current"
+msgstr "hospital.current"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hospital_department
+msgid "hospital.department"
+msgstr "hospital.department"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hospital_doc
+msgid "hospital.doc"
+msgstr "hospital.doc"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hospital_document
+msgid "hospital.document"
+msgstr "hospital.document"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hospital_history
+msgid "hospital.history"
+msgstr "hospital.history"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hospital_state
+msgid "hospital.state"
+msgstr "hospital.state"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hospital_managment
+msgid "hospital_managment"
+msgstr "hospital_managment"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hospital_student
+msgid "hospital_student"
+msgstr "hospital_student"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_hospitalbg
+msgid "hospitalbg"
+msgstr "hospitalbg"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.history_form_view
+msgid "https://www.mywebsite.com"
+msgstr "https://www.mywebsite.com"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_icurn
+msgid "icurn"
+msgstr "icurn"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_ins
+msgid "ins"
+msgstr "ins"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.insurance_list_action
+msgid "insurance"
+msgstr "insurance"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.insurance_form_view
+#: model:ir.ui.view,arch_db:hospital.insurance_tree_view
+msgid "insurance Form"
+msgstr "insurance Form"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_lifedisease
+msgid "lifedisease"
+msgstr "lifedisease"
+
+#. module: hospital
+#: model:ir.ui.menu,name:hospital.disease_menu
+msgid "lifetime disease"
+msgstr "lifetime disease"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_lifedisease_ldescription
+msgid "lifetime disease description"
+msgstr "lifetime disease description"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_lifedisease_ldiseasename
+msgid "lifetime disease name"
+msgstr "lifetime disease name"
+
+#. module: hospital
+#: model:ir.ui.menu,name:hospital.mdisease_menu
+msgid "major disease"
+msgstr "major disease"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_mdisease
+msgid "mdisease"
+msgstr "mdisease"
+
+#. module: hospital
+#: model:ir.ui.menu,name:hospital.medicaldept_menu
+msgid "medical department"
+msgstr "medical department"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_medicaldepartment_md
+msgid "medical dept"
+msgstr "medical dept"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_medical_appointment1
+msgid "medical.appointment1"
+msgstr "medical.appointment1"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_medicaldepartment
+msgid "medicaldepartment"
+msgstr "medicaldepartment"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.medicaldept_action
+msgid "medicaldept"
+msgstr "medicaldept"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.medicaldept_form_view
+msgid "medicaldept_form"
+msgstr "medicaldept_form"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_medicine
+msgid "medicine"
+msgstr "medicine"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.Medlist_form_view
+#: model:ir.ui.view,arch_db:hospital.Medlist_tree_view
+msgid "medicinelist Form"
+msgstr "medicinelist Form"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_medicinelists
+msgid "medicinelists"
+msgstr "medicinelists"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_n_data
+msgid "n.data"
+msgstr "n.data"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_n_tab
+msgid "n.tab"
+msgstr "n.tab"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.patient_list_action
+msgid "patient"
+msgstr "patient"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patient_form_view
+#: model:ir.ui.view,arch_db:hospital.patient_tree1_view
+#: model:ir.ui.view,arch_db:hospital.patient_tree_view
+msgid "patient Form"
+msgstr "patient Form"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_patient_visitor
+msgid "patient_visitor"
+msgstr "patient_visitor"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_patientdocument
+msgid "patientdocument"
+msgstr "patientdocument"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_patients
+msgid "patients"
+msgstr "patients"
+
+#. module: hospital
+#: model:ir.actions.report,name:hospital.report_session1
+#: model:ir.model,name:hospital.model_prescription
+msgid "prescription"
+msgstr "prescription"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.prescription_form_view
+#: model:ir.ui.view,arch_db:hospital.prescription_tree_view
+msgid "prescription Form"
+msgstr "prescription Form"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_q_data
+msgid "q.data"
+msgstr "q.data"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_quantities
+msgid "quantities"
+msgstr "quantities"
+
+#. module: hospital
+#: model:ir.actions.report,name:hospital.student_invoices
+msgid "report"
+msgstr "report"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_report_hospital_report_session_view_xls
+msgid "report.hospital.report_session_view_xls"
+msgstr "report.hospital.report_session_view_xls"
+
+#. module: hospital
+#: model:ir.model.fields,field_description:hospital.field_hospital_student_specify
+msgid "specification"
+msgstr "specification"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.department_form_view
+#: model:ir.ui.view,arch_db:hospital.department_tree_view
+msgid "state Form"
+msgstr "state Form"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_stud_document
+msgid "stud.document"
+msgstr "stud.document"
+
+#. module: hospital
+#: model:ir.actions.act_window,name:hospital.Student_hospital_action
+#: model:ir.ui.view,arch_db:hospital.Student_hospital_tree_view
+msgid "student"
+msgstr "student"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.Student_hospital_form_view
+msgid "student Form"
+msgstr "student Form"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_student_bg
+msgid "student_bg"
+msgstr "student_bg"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_student_city
+msgid "student_city"
+msgstr "student_city"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_student_college
+msgid "student_college"
+msgstr "student_college"
+
+#. module: hospital
+#: model:ir.model,name:hospital.model_tab
+msgid "tab"
+msgstr "tab"
+
+#. module: hospital
+#: model:ir.ui.view,arch_db:hospital.patientvisitor_tree_view
+msgid "visitors Form"
+msgstr "visitors Form"
+

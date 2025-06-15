@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="bg1" model="student_bg" >
+            <field name="bg">A+ve</field>
+        </record>
+
+        <record id="bg2" model="student_bg" >
+            <field name="bg">B+ve</field>
+        </record>
+
+        <record id="bg3" model="student_bg" >
+            <field name="bg">O+ve</field>
+        </record>
+
+        <record id="bg4" model="student_bg" >
+            <field name="bg">AB+ve</field>
+        </record>
+
+        <record id="bg5" model="student_bg" >
+            <field name="bg">A-ve</field>
+        </record>
+
+        <record id="bg6" model="student_bg" >
+            <field name="bg">B-ve</field>
+        </record>
+
+        <record id="bg7" model="student_bg" >
+            <field name="bg">O-ve</field>
+        </record>
+
+        <record id="bg8" model="student_bg" >
+            <field name="bg">AB-ve</field>
+        </record>
+    </data>
+</odoo>

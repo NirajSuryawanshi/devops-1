@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="bdd1" model="bd" >
+            <field name="dise">Agranulocytosis</field>
+
+        </record>
+        <record id="bdd2" model="bd" >
+            <field name="dise">Asthma</field>
+
+        </record>
+        <record id="bdd3" model="bd" >
+            <field name="dise">Depression</field>
+
+        </record>
+        <record id="bdd4" model="bd" >
+            <field name="dise">Tendonitis</field>
+
+        </record>
+        <record id="bdd5" model="bd" >
+            <field name="dise">Bursitis</field>
+
+        </record>
+        <record id="bdd6" model="bd" >
+            <field name="dise">Flu</field>
+
+        </record>
+        <record id="bdd7" model="bd" >
+            <field name="dise">Kidney</field>
+
+        </record>
+        <record id="bdd8" model="bd" >
+            <field name="dise">Disorders</field>
+
+        </record>
+        <record id="bdd9" model="bd" >
+            <field name="dise">Thyroid</field>
+
+        </record>
+        <record id="bdd10" model="bd" >
+            <field name="dise">Osteoporosis</field>
+
+        </record>
+        <record id="bdd11" model="bd" >
+            <field name="dise">Diabetes</field>
+
+        </record>
+        <record id="bdd12" model="bd" >
+            <field name="dise">Cholesterol</field>
+
+        </record>
+        <record id="bdd13" model="bd" >
+            <field name="dise">Other</field>
+        </record>
+
+    </data>
+</odoo>

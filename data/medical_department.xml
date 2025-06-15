@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+       <record id="md1" model="medicaldepartment" >
+            <field name="md">Anatomy</field>
+        </record>
+
+        <record id="md2" model="medicaldepartment" >
+            <field name="md">Physiology</field>
+        </record>
+
+        <record id="md3" model="medicaldepartment" >
+            <field name="md">Biochemistry</field>
+        </record>
+
+        <record id="md4" model="medicaldepartment" >
+            <field name="md">Pharmacology</field>
+        </record>
+
+        <record id="md5" model="medicaldepartment" >
+            <field name="md">Pathology</field>
+        </record>
+
+        <record id="md6" model="medicaldepartment" >
+            <field name="md">Microbiology</field>
+        </record>
+
+        <record id="md7" model="medicaldepartment" >
+            <field name="md">Forensic Medicine</field>
+        </record>
+
+        <record id="md8" model="medicaldepartment" >
+            <field name="md">Community Medicine</field>
+        </record>
+
+        <record id="md9" model="medicaldepartment" >
+            <field name="md">General Medicine</field>
+        </record>
+
+        <record id="md10" model="medicaldepartment" >
+            <field name="md">Paediatrics</field>
+        </record>
+
+        <record id="md11" model="medicaldepartment" >
+            <field name="md">Tuberculosis and Respiratory Diseases</field>
+        </record>
+
+        <record id="md12" model="medicaldepartment" >
+            <field name="md">Phychiatry</field>
+        </record>
+
+        <record id="md13" model="medicaldepartment" >
+            <field name="md">General Surgery</field>
+        </record>
+
+        <record id="md14" model="medicaldepartment" >
+            <field name="md">Orthopaedics</field>
+        </record>
+
+        <record id="md15" model="medicaldepartment" >
+            <field name="md">Oto-Rhino-Laryngology</field>
+        </record>
+
+        <record id="md16" model="medicaldepartment" >
+            <field name="md">Opthalmology</field>
+        </record>
+
+        <record id="md17" model="medicaldepartment" >
+            <field name="md">Obstetrics and Gynaecology</field>
+        </record>
+
+        <record id="md18" model="medicaldepartment" >
+            <field name="md">Anaesthesiology</field>
+        </record>
+
+        <record id="md19" model="medicaldepartment" >
+            <field name="md">Radio-Therapy</field>
+        </record>
+
+        <record id="md20" model="medicaldepartment" >
+            <field name="md">Dentistry</field>
+        </record>
+
+        <record id="md21" model="medicaldepartment" >
+            <field name="md">Blood Bank</field>
+        </record>
+
+        <record id="md22" model="medicaldepartment" >
+            <field name="md">Other</field>
+
+        </record>
+    </data>
+</odoo>

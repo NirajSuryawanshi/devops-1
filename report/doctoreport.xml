@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="report_doctor_view">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="doc">
+                    <t t-call="web.internal_layout">
+                        <div class="page">
+                            <!--<table style="border-spacing:0;margin-bottom:0;height:122px;" class="table">
+
+                                <tbody>
+                                    <tr style="width: 1in;">
+                                        <td style="border: 2px solid black;text-align: center; vertical-align: middle;" class="col-xs-5">
+                                            <img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('EAN13', quote_plus(doc.License_Number or ''), 600, 150)" style="width:100%;height:20%;"/>
+                                            <span t-field="doc.License_Number"/>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>-->
+                            <table class="center-block" border="1" style="background-color: lightblue;width:40%;height:100%;border:1px solid black;border-collapse:separate; border-radius:8pt;">
+
+                                <tr>
+                                    <td align="center"><span t-field="doc.CurrentHospital" style="font-size:60px"/></td>
+                                </tr>
+                                <tr>
+                                    <td align="center"><span t-field="doc.Doctor_photo" t-options='{"widget": "image","style":"width: 200px;height: 200px"}'/></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                            <span t-field="doc.name" style="font-size:40px;font-weight:bold;"/><br></br>
+                                            <span t-field="doc.Doctor_Education" style="font-size:24px;font-weight:bold;"/><br></br>
+
+                                            <span style="font-size:24px;font-weight:bold;">
+                                                License NO:
+                                            </span>
+                                            <span t-field="doc.License_Number" style="font-size:24px;font-weight:bold;"/><br></br>
+                                    </td>
+                                <tr>
+                                    <td align="center">
+                                        <span style="font-size:80px">DOCTOR</span>
+                                    </td>
+                                </tr>
+
+                                </tr>
+                            </table>
+                            <br></br>
+                            <br></br>
+                        </div>
+                    </t>
+                </t>
+            </t>
+
+
+
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="doc">
+                    <t t-call="web.internal_layout">
+                        <div class="page">
+                            <table class="center-block" border="1" style="background-color: lightblue;width:40%;height:100%;border:1px solid black;border-collapse:separate; border-radius:8pt;">
+                                <tr>
+                                    <td>
+                                            <br></br>
+                                            <span align="left" style="font-size:24px;font-weight:bold;margin-left:10px;">
+                                                Address:
+                                            </span>
+                                            <span align="left" t-field="doc.Doctor_Address" style="font-size:20px"/><br></br>
+                                            <span align="left" style="font-size:24px;font-weight:bold;margin-left:10px;">
+                                                Country:
+                                            </span>
+                                            <span align="left" t-field="doc.Doctor_country" style="font-size:20px"/><br></br>
+                                            <span align="left" style="font-size:24px;font-weight:bold;margin-left:10px;">
+                                                State:
+                                            </span>
+                                            <span align="left" t-field="doc.state" style="font-size:20px"/><br></br>
+
+                                            <span align="left" style="font-size:24px;font-weight:bold;margin-left:10px;">
+                                                 Gender:
+                                            </span>
+                                            <span align="left" t-field="doc.Gender" style="font-size:20px"/><br></br>
+
+                                            <span align="left" style="font-size:24px;font-weight:bold;margin-left:10px;">
+                                                 Bloodgroup:
+                                            </span>
+                                            <span align="left" t-field="doc.BloodGroup" style="font-size:20px"/><br></br>
+                                            <span align="left" style="font-size:24px;font-weight:bold;margin-left:10px;">
+                                                 DOB:
+                                            </span>
+                                            <span align="left" t-field="doc.dob" style="font-size:20px"/><br></br>
+
+
+                                        <br></br><br></br>
+                                        <br></br>
+                                        <br></br>
+
+<!--
+                                                <img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('EAN13', quote_plus(doc.License_Number or ''), 600, 150)" style="background-color: lightblue;width:100%;height:20%;"/>
+-->
+                                                <!--<span t-field="doc.License_Number"/>-->
+
+
+                                        <br></br>
+                                        <br></br><br></br>
+                                         <br></br>
+                                        <br></br>
+                                        <br></br><br></br>
+                                    </td>
+                                <tr>
+                                    <td align="center"><span t-field="doc.CurrentHospital" style="font-size:60px"/></td>
+                                </tr>
+
+                                </tr>
+                            </table>
+                        </div>
+                    </t>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>

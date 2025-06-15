@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="bg1" model="hospital.bloodgroup">
+			<field name="bg">A+ve</field>
+        </record>
+                <record id="bg2" model="hospital.bloodgroup" >
+            <field name="bg">B+ve</field>
+        </record>
+
+        <record id="bg3" model="hospital.bloodgroup" >
+            <field name="bg">O+ve</field>
+        </record>
+
+        <record id="bg4" model="hospital.bloodgroup" >
+            <field name="bg">AB+ve</field>
+        </record>
+
+        <record id="bg5" model="hospital.bloodgroup" >
+            <field name="bg">A-ve</field>
+        </record>
+
+        <record id="bg6" model="hospital.bloodgroup" >
+            <field name="bg">B-ve</field>
+        </record>
+
+        <record id="bg7" model="hospital.bloodgroup" >
+            <field name="bg">O-ve</field>
+        </record>
+
+        <record id="bg8" model="hospital.bloodgroup" >
+            <field name="bg">AB-ve</field>
+        </record>
+
+    </data>
+</odoo>

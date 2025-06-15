@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="hospital.patient_session_view">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="o">
+                    <t t-call="web.internal_layout">
+                        <div class="page">
+                            <div class="text-center" style="font-size: 20px !important;">
+                                <center>
+                                    <table class="table table-bordered"
+                                           style="height:280px;border:3px solid black;width:600px; align:center; box-shadow:0px 3px 3px 3px">
+
+                                        <tr>
+                                            <td>
+                                                <img t-if="o.Image"
+                                                     t-att-src="'data:image/png;base64,%s' % to_text(o.Image)"
+                                                     height="200px" width="200px" style="padding:30px"/>
+                                            </td>
+                                            <br/>
+                                            <td>
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <span>
+
+                                                                <strong>Name:</strong>
+                                                            </span>
+                                                        </td>
+                                                        <td>
+                                                            <span t-field="o.name"/>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            <span>
+                                                                <strong>Contact no:</strong>
+                                                            </span>
+                                                        </td>
+
+                                                        <td>
+                                                            <span t-field="o.homephone"/>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <span>
+                                                                <strong>DOB:</strong>
+                                                            </span>
+                                                        </td>
+
+                                                        <td>
+                                                            <span t-field="o.Birthdate"/>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <span>
+                                                                <strong>Age:</strong>
+                                                            </span>
+                                                        </td>
+
+                                                        <td>
+<!--                                                            <span t-field="o.Age"/>-->
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <span>
+                                                                <strong>Bloodgroup:</strong>
+                                                            </span>
+                                                        </td>
+
+                                                        <td>
+                                                            <span t-field="o.Bloodgroup"/>
+                                                        </td>
+                                                    </tr>
+
+
+                                                    <tr>
+
+
+                                                        <td>
+                                                            <h2>
+                                                                <b>
+                                                                    <span t-field="o.patient_adharnumber"/>
+                                                                </b>
+                                                            </h2>
+                                                        </td>
+                                                    </tr>
+
+
+                                                </table>
+
+                                            </td>
+
+
+                                            <br>
+                                            </br>
+                                        </tr>
+                                    </table>
+                                </center>
+                            </div>
+                        </div>
+                    </t>
+                </t>
+            </t>
+
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="o">
+                    <t t-call="web.internal_layout">
+                        <div class="page2" style="font-size: 20px !important;">
+                            <center>
+                                <table class="table table-bordered"
+                                       style="height:280px;border:3px solid black;width:600px;align:center;box-shadow:0px 3px 3px 3px">
+                                    <tr>
+
+                                        <td>
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <span style="padding:3em;margin-top:20px">
+                                                            <strong>Address:</strong>
+                                                        </span>
+                                                    </td>
+                                                    <td>
+                                                        <span style="padding:1em;" t-field="o.patient_address"/>
+                                                        <span style="padding:1em;" t-field="o.patient_city"/>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span style="padding:3em;">
+                                                            <strong>Email id:</strong>
+                                                        </span>
+                                                    </td>
+
+                                                    <td>
+                                                        <span style="padding:1em;" t-field="o.login"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span style="padding:3em;">
+                                                            <strong>Gaurdian name:</strong>
+                                                        </span>
+                                                    </td>
+
+                                                    <td>
+                                                        <span style="padding:1em;" t-field="o.Gaurdian_name"/>
+                                                    </td>
+                                                </tr>
+
+
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                                <br></br>
+                            </center>
+                        </div>
+
+                    </t>
+                </t>
+            </t>
+        </template>
+    </data>
+
+</odoo>

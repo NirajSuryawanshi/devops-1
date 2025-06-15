@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="m1" model="mdisease" >
+            <field name="mdiseasename">Alzheimer's disease.</field>
+
+        </record>
+        <record id="m2" model="mdisease" >
+            <field name="mdiseasename">Diabetes</field>
+
+        </record>
+        <record id="m3" model="mdisease" >
+            <field name="mdiseasename">Stroke</field>
+
+        </record>
+        <record id="m4" model="mdisease" >
+            <field name="mdiseasename">Cancers</field>
+
+        </record>
+        <record id="m5" model="mdisease" >
+            <field name="mdiseasename">Respiratory illness </field>
+
+        </record>
+
+
+
+    </data>
+</odoo>

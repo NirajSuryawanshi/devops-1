@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="q1" model="quantities">
+            <field name="qty">1 tab</field>
+        </record>
+
+         <record id="q2" model="quantities">
+            <field name="qty">2 tabs</field>
+        </record>
+
+         <record id="q3" model="quantities">
+            <field name="qty">3 tabs</field>
+        </record>
+
+         <record id="q4" model="quantities">
+            <field name="qty">4 tabs</field>
+        </record>
+
+         <record id="q5" model="quantities">
+            <field name="qty">5 tabs</field>
+        </record>
+
+         <record id="q6" model="quantities">
+            <field name="qty">6 tabs</field>
+        </record>
+
+         <record id="q7" model="quantities">
+            <field name="qty">7 tabs</field>
+        </record>
+         <record id="q8" model="quantities">
+            <field name="qty">8 tabs</field>
+        </record>
+         <record id="q9" model="quantities">
+            <field name="qty">9 tabs</field>
+        </record>
+         <record id="q10" model="quantities">
+            <field name="qty">10 tabs</field>
+        </record>
+         <record id="q11" model="quantities">
+            <field name="qty">11 tabs</field>
+        </record>
+         <record id="q12" model="quantities">
+            <field name="qty">12 tabs</field>
+        </record>
+         <record id="q13" model="quantities">
+            <field name="qty">13 tabs</field>
+        </record>
+
+         <record id="q14" model="quantities">
+            <field name="qty">14 tabs</field>
+        </record>
+
+         <record id="q15" model="quantities">
+            <field name="qty">15 tabs</field>
+        </record>
+
+         <record id="q16" model="quantities">
+            <field name="qty">16 tabs</field>
+        </record>
+          <record id="q17" model="quantities">
+            <field name="qty">17 tabs</field>
+        </record>
+          <record id="q18" model="quantities">
+            <field name="qty">18 tabs</field>
+        </record>
+          <record id="q19" model="quantities">
+            <field name="qty">19 tabs</field>
+        </record>
+          <record id="q20" model="quantities">
+            <field name="qty">20 tabs</field>
+        </record>
+          <record id="q21" model="quantities">
+            <field name="qty">21 tabs</field>
+        </record>
+          <record id="q22" model="quantities">
+            <field name="qty">22 tabs</field>
+        </record>
+          <record id="q23" model="quantities">
+            <field name="qty">23 tabs</field>
+        </record>
+          <record id="q24" model="quantities">
+            <field name="qty">24 tabs</field>
+        </record>
+          <record id="q25" model="quantities">
+            <field name="qty">25 tabs</field>
+        </record>
+          <record id="q26" model="quantities">
+            <field name="qty">26 tabs</field>
+        </record>
+         <record id="q27" model="quantities">
+            <field name="qty">27 tabs</field>
+        </record>
+         <record id="q28" model="quantities">
+            <field name="qty">28 tabs</field>
+        </record>
+         <record id="q29" model="quantities">
+            <field name="qty">29 tabs</field>
+        </record>
+         <record id="q30" model="quantities">
+            <field name="qty">30 tabs</field>
+        </record>
+         <record id="q31" model="quantities">
+            <field name="qty">3 ml</field>
+        </record>
+         <record id="q32" model="quantities">
+            <field name="qty">5 ml</field>
+        </record>
+         <record id="q33" model="quantities">
+            <field name="qty">10 ml</field>
+        </record>
+         <record id="q34" model="quantities">
+            <field name="qty">15 ml</field>
+        </record>
+
+
+
+    </data>
+</odoo>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="med1" model="medicinelists">
+            <field name="medlist">Azithral tablet</field>
+        </record>
+
+         <record id="med2" model="medicinelists">
+            <field name="medlist">Alex syrup</field>
+        </record>
+
+         <record id="med3" model="medicinelists">
+            <field name="medlist">Azee drop</field>
+        </record>
+
+         <record id="med4" model="medicinelists">
+            <field name="medlist">Allegra</field>
+        </record>
+
+         <record id="med5" model="medicinelists">
+            <field name="medlist">Asthalin syrup</field>
+        </record>
+
+         <record id="med6" model="medicinelists">
+            <field name="medlist">Arkamin tablet</field>
+        </record>
+
+         <record id="med7" model="medicinelists">
+            <field name="medlist">Avomin drop</field>
+        </record>
+
+         <record id="med8" model="medicinelists">
+            <field name="medlist">Alex cough lozenges lemon ginger</field>
+        </record>
+
+         <record id="med9" model="medicinelists">
+            <field name="medlist">Dolo 360 tablet</field>
+        </record>
+
+         <record id="med10" model="medicinelists">
+            <field name="medlist">Dexona tablet</field>
+        </record>
+
+         <record id="med11" model="medicinelists">
+            <field name="medlist">Daphalac oral solution</field>
+        </record>
+
+         <record id="med12" model="medicinelists">
+            <field name="medlist">Drotin tablet</field>
+        </record>
+
+         <record id="med13" model="medicinelists">
+            <field name="medlist">Dalacin capsule</field>
+        </record>
+
+         <record id="med14" model="medicinelists">
+            <field name="medlist">Defcort syrup</field>
+        </record>
+
+         <record id="med15" model="medicinelists">
+            <field name="medlist">Evion LC tablet</field>
+        </record>
+
+         <record id="med16" model="medicinelists">
+            <field name="medlist">Estoshine MR tablet</field>
+        </record>
+          <record id="med17" model="medicinelists">
+            <field name="medlist">Meftal-Spas Tablet</field>
+        </record>
+          <record id="med18" model="medicinelists">
+            <field name="medlist">Monocef-O Tablet</field>
+        </record>
+          <record id="med19" model="medicinelists">
+            <field name="medlist">Bystolic syrup</field>
+        </record>
+          <record id="med20" model="medicinelists">
+            <field name="medlist">Brivitial drop</field>
+        </record>
+          <record id="med21" model="medicinelists">
+            <field name="medlist">Brilinta drop</field>
+        </record>
+          <record id="med22" model="medicinelists">
+            <field name="medlist">Tazorac tablet</field>
+        </record>
+          <record id="med23" model="medicinelists">
+            <field name="medlist">taujeo syrup</field>
+        </record>
+          <record id="med24" model="medicinelists">
+            <field name="medlist">Ambrodil -S drop</field>
+        </record>
+          <record id="med25" model="medicinelists">
+            <field name="medlist">Asthakid LS syrup</field>
+        </record>
+          <record id="med26" model="medicinelists">
+            <field name="medlist">Tresiba syrup</field>
+        </record>
+
+
+    </data>
+</odoo>

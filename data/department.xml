@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="d1" model="hospital.department">
+			<field name="dname">Casuality Department</field>
+        </record>
+        <record id="d2" model="hospital.department" >
+            <field name="dname">Operating Theatre(OT)</field>
+        </record>
+
+        <record id="d3" model="hospital.department" >
+            <field name="dname">Intensive Care Unit(ICU)</field>
+        </record>
+
+        <record id="d4" model="hospital.department" >
+            <field name="dname">Anesthesiology department</field>
+        </record>
+
+        <record id="d5" model="hospital.department" >
+            <field name="dname">Cardiology department</field>
+        </record>
+
+        <record id="d6" model="hospital.department" >
+            <field name="dname">General department</field>
+        </record>
+
+        <record id="d7" model="hospital.department" >
+            <field name="dname">Gynology department</field>
+        </record>
+
+        <record id="d8" model="hospital.department" >
+            <field name="dname">Hematology department</field>
+        </record>
+        <record id="d9" model="hospital.department" >
+            <field name="dname">Pediatrics department</field>
+        </record>
+
+        <record id="d10" model="hospital.department" >
+            <field name="dname">Neurology department</field>
+        </record>
+
+        <record id="d11" model="hospital.department" >
+            <field name="dname">Oncology department</field>
+        </record>
+
+        <record id="d12" model="hospital.department" >
+            <field name="dname">Opthalmology department</field>
+        </record>
+        <record id="d13" model="hospital.department" >
+            <field name="dname">Urology department</field>
+        </record>
+
+        <record id="d14" model="hospital.department" >
+            <field name="dname">Psychiatry department</field>
+        </record>
+
+        <record id="d15" model="hospital.department" >
+            <field name="dname">Inpatient department(IPD)</field>
+        </record>
+
+        <record id="d16" model="hospital.department" >
+            <field name="dname">Outpatient deartment(OPD)</field>
+        </record>
+        <record id="d17" model="hospital.department" >
+            <field name="dname">Gastroentrology departtment</field>
+        </record>
+        <record id="d18" model="hospital.department" >
+            <field name="dname">ENT department</field>
+        </record>
+        <record id="d19" model="hospital.department" >
+            <field name="dname">Radiology department(X-ray)</field>
+        </record>
+        <record id="d20" model="hospital.department" >
+            <field name="dname">Rehabiliton department</field>
+        </record>
+    </data>
+
+</odoo>

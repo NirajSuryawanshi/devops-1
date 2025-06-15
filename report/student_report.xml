@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+    <template id="hospital.report_student_view">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.internal_layout">
+                    <div class="page" style="" >
+                        <div class="icard" style=" height:600px;box-shadow: 0 5px 5px 5px black;max-width: 400px;padding: 15px; border-radius: 5px;margin: auto;text-align: center;">
+                             <h1><b><span t-field="o.Student_college"/></b></h1>
+                                    <img class="center-block" t-if="o.student_picture"
+                                                 t-att-src="'data:image/png;base64,%s' % to_text(o.student_picture)"
+                                                 style=" width: 50%;border: 5px solid #e1e1e1;"/>
+                                        <h1><span t-field="o.name"/></h1>
+
+                                                <table style=" width: 290px;margin: 10px auto;border: 1px solid #e1e1e1;text-align: left;">
+                                                    <tr>
+                                                        <td><h4><strong>Prn No</strong></h4></td>
+                                                        <td><b> <span t-field="o.prn"/></b></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><h4><strong>Percuing Year</strong></h4></td>
+                                                        <td><b> <span t-field="o.percuing_year"/></b></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><h4><strong>Aadhaar</strong></h4></td>
+                                                        <td><b> <span t-field="o.Aadhaar"/></b></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><h4><strong>DOB</strong></h4></td>
+                                                        <td><b><span t-field="o.dob"/></b></td>
+                                                    </tr>
+                                                </table>
+                         </div>
+
+                    </div>
+                </t>
+            </t>
+        </t>
+<br/>
+
+
+<t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.internal_layout">
+                    <div class="page2">
+                        <br></br>
+                          <div class="icard2" style="height: 600px;box-shadow: 0 5px 5px 5px black;max-width: 400px;padding: 15px; border-radius: 5px;margin: auto;text-align: center;">
+
+
+
+                                                <table style=" width: 290px;margin: 10px auto;border: 1px solid #e1e1e1;text-align: left;">
+                                                    <tr>
+                                                        <td><h4><strong>Gender</strong></h4></td>
+                                                        <td><b> <span t-field="o.gender" style="margin-left:10px"/></b></td>
+                                                    </tr>
+
+
+                                                    <tr>
+                                                        <td><h4><strong>Blood Group</strong></h4></td>
+                                                        <td><b> <span t-field="o.bloodgroup" style="margin-left:10px"/></b></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><h4><strong>Mobile No</strong></h4></td>
+                                                        <td><b> <span t-field="o.Mobileno" style="margin-left:10px"/></b></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><h4><strong>Address</strong></h4></td>
+                                                        <td><b><span t-field="o.Student_Address" style="margin-left:10px"/>
+                                                        <span t-field="o.line2" />
+                                                        <span t-field="o.Student_city" style="margin-left:10px"/>
+                                                        <span t-field="o.State" style="margin-left:10px"/>
+                                                        <span t-field="o.country" style="margin-left:10px"/></b></td>
+                                                    </tr>
+                                                </table>
+                         </div>
+                    </div>
+                </t>
+            </t>
+        </t>
+
+    </template>
+
+    </data>
+
+</odoo>
+
+
+

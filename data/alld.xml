@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="a1" model="allergy" >
+            <field name="aname">insect bites and stings</field>
+
+        </record>
+        <record id="a2" model="allergy" >
+            <field name="aname">grass and tree pollen </field>
+
+        </record>
+        <record id="a3" model="allergy" >
+            <field name="aname">household chemicals</field>
+
+        </record>
+        <record id="a4" model="allergy" >
+            <field name="aname">mould </field>
+
+        </record>
+        <record id="a5" model="allergy" >
+            <field name="aname">animal dander </field>
+
+        </record>
+
+
+
+    </data>
+</odoo>

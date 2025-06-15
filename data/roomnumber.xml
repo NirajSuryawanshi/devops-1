@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+          <record id="rn19" model="icurn">
+            <field name="IcuRoomno">ICU I201</field>
+        </record>
+          <record id="rn20" model="icurn">
+            <field name="IcuRoomno">ICU I202</field>
+        </record>
+          <record id="rn26" model="icurn">
+            <field name="IcuRoomno">Room I3</field>
+        </record>
+         <record id="rn27" model="icurn">
+            <field name="IcuRoomno">Room I4</field>
+        </record>
+         <record id="rn28" model="icurn">
+            <field name="IcuRoomno">Room I11</field>
+        </record>
+         <record id="rn29" model="icurn">
+            <field name="IcuRoomno">Room I12</field>
+        </record>
+         <record id="rn30" model="icurn">
+            <field name="IcuRoomno">Room CA14</field>
+        </record>
+
+        <record id="rn31" model="icurn">
+            <field name="IcuRoomno">CCU CC20</field>
+        </record>
+          <record id="rn32" model="icurn">
+            <field name="IcuRoomno">CCU CC202</field>
+        </record>
+          <record id="rn33" model="icurn">
+            <field name="IcuRoomno">Room SSRI3</field>
+        </record>
+         <record id="rn34" model="icurn">
+            <field name="IcuRoomno">Room SSRI4</field>
+        </record>
+         <record id="rn35" model="icurn">
+            <field name="IcuRoomno">Room SWI11</field>
+        </record>
+         <record id="rn36" model="icurn">
+            <field name="IcuRoomno">Room DELXI12</field>
+        </record>
+         <record id="rn37" model="icurn">
+            <field name="IcuRoomno">Room GWI14</field>
+        </record>
+
+    </data>
+</odoo>
